@@ -10,41 +10,47 @@ import UIKit
 
 class EmptyStateView: NibView {
 
+    // MARK: - Interfaces Properties
+
+    @IBOutlet weak var containerView: UIView?
+
     @IBOutlet weak var messageView: UIView!
-    @IBOutlet weak var coverImageView: UIImageView!
+    @IBOutlet weak var coverImageView: UIImageView?
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var primaryButton: UIButton!
     
-    // Constraints
-    @IBOutlet var primaryButtonWidthConstraint: NSLayoutConstraint!
-    @IBOutlet var messageViewCenterYConstraint: NSLayoutConstraint!
-    @IBOutlet var messageViewBottomConstraint: NSLayoutConstraint!
-    @IBOutlet var messageViewTopConstraint: NSLayoutConstraint!
-    @IBOutlet var messageViewLeftConstraint: NSLayoutConstraint!
-    @IBOutlet var messageViewRightConstraint: NSLayoutConstraint!
-    @IBOutlet var primaryButtonCenterXConstraint: NSLayoutConstraint!
-    @IBOutlet var primaryButtonLeftConstraint: NSLayoutConstraint!
-    @IBOutlet var primaryButtonRightConstraint: NSLayoutConstraint!
-    @IBOutlet var primaryButtonTopConstraint: NSLayoutConstraint!
-    @IBOutlet var primaryButtonTop2Constraint: NSLayoutConstraint!
-    @IBOutlet var imageViewTopConstraint: NSLayoutConstraint!
-    @IBOutlet var imageViewBottomConstraint: NSLayoutConstraint!
-    @IBOutlet var imageViewTop2Constraint: NSLayoutConstraint!
-    @IBOutlet var imageViewWidthConstraint: NSLayoutConstraint!
-    @IBOutlet var imageViewHeightConstraint: NSLayoutConstraint!
-    @IBOutlet var titleLabelTopConstraint: NSLayoutConstraint!
-    @IBOutlet weak var coverImageViewTopConstraint: NSLayoutConstraint!
-    @IBOutlet weak var coverImageViewBottomConstraint: NSLayoutConstraint!
-    
-    struct ViewModel {
-        var image: UIImage?
-        var title: String?
-        var description: String?
-        var titleButton: String?
-    }
-    
+    // MARK: - Constraints Properties
+
+    @IBOutlet var primaryButtonWidthConstraint: NSLayoutConstraint?
+    @IBOutlet var messageViewCenterYConstraint: NSLayoutConstraint?
+    @IBOutlet var messageViewBottomConstraint: NSLayoutConstraint?
+    @IBOutlet var messageViewTopConstraint: NSLayoutConstraint?
+    @IBOutlet var messageViewLeftConstraint: NSLayoutConstraint?
+    @IBOutlet var messageViewRightConstraint: NSLayoutConstraint?
+    @IBOutlet var primaryButtonCenterXConstraint: NSLayoutConstraint?
+    @IBOutlet var primaryButtonLeftConstraint: NSLayoutConstraint?
+    @IBOutlet var primaryButtonRightConstraint: NSLayoutConstraint?
+    @IBOutlet var primaryButtonTopConstraint: NSLayoutConstraint?
+    @IBOutlet var primaryButtonTop2Constraint: NSLayoutConstraint?
+    @IBOutlet var imageViewTopConstraint: NSLayoutConstraint?
+    @IBOutlet var imageViewBottomConstraint: NSLayoutConstraint?
+    @IBOutlet var imageViewTop2Constraint: NSLayoutConstraint?
+    @IBOutlet var imageViewWidthConstraint: NSLayoutConstraint?
+    @IBOutlet var imageViewHeightConstraint: NSLayoutConstraint?
+    @IBOutlet var titleLabelTopConstraint: NSLayoutConstraint?
+    @IBOutlet weak var coverImageViewTopConstraint: NSLayoutConstraint?
+    @IBOutlet weak var coverImageViewBottomConstraint: NSLayoutConstraint?
+
+    @IBOutlet var containerTopConstraint: NSLayoutConstraint?
+    @IBOutlet var containerBottomConstraint: NSLayoutConstraint?
+    @IBOutlet var containerLeadingConstraint: NSLayoutConstraint?
+    @IBOutlet var containerTraillingonstraint: NSLayoutConstraint?
+
+
+  // MAKR: - Properties
+
     var viewModel = ViewModel() {
         didSet { fillView() }
     }
@@ -54,21 +60,35 @@ class EmptyStateView: NibView {
     }
     
     var actionButton: ((UIButton)->())?
-    
+
+  // MARK: - Private Properties
+
     private var gradientLayer: CAGradientLayer?
+
+
+  // MARK: - UIView (life-cycle)
+
+  override func awakeFromNib() {
+    primaryButton.layer.cornerRadius = 20
+  }
+
+  // MARK: - Configurations
+
+  override func commonInit() {
+      super.commonInit()
+      setupView()
+  }
+
+  // MARK: - Actions / Events
+
+  func play() {
+      format.animation?.play?(self)
+  }
+
+  @IBAction func didPressPrimaryButton(_ sender: UIButton) {
+    actionButton?(sender)
+  }
     
-    override func awakeFromNib() {
-        primaryButton.layer.cornerRadius = 20
-    }
-    
-    @IBAction func didPressPrimaryButton(_ sender: UIButton) {
-        actionButton?(sender)
-    }
-    
-    override func commonInit() {
-        super.commonInit()
-        setupView()
-    }
 }
 
 extension EmptyStateView {
@@ -80,10 +100,10 @@ extension EmptyStateView {
     private func fillView() {
         
         if case .cover(_, _) = format.position.image {
-            coverImageView.image = viewModel.image
+            coverImageView?.image = viewModel.image
             imageView.image = nil
         } else {
-            coverImageView.image = nil
+            coverImageView?.image = nil
             imageView.image = viewModel.image
         }
         
@@ -107,18 +127,33 @@ extension EmptyStateView {
         } else {
             primaryButton.isHidden = true
         }
+
+      if viewModel.image == nil { imageView.isHidden = true }
     }
     
     private func updateUI() {
-        
+
+      containerView?.backgroundColor = format.containerBackgroundColor
+
+      containerTopConstraint?.constant = format.contentEdgetInset.top
+      containerBottomConstraint?.constant = format.contentEdgetInset.bottom
+      containerLeadingConstraint?.constant = format.contentEdgetInset.left
+      containerTraillingonstraint?.constant = format.contentEdgetInset.right
+
+      if let cornerRadius = format.containerCornerRadius {
+        containerView?.clipsToBounds = true
+        containerView?.layer.cornerRadius = cornerRadius
+      }
+
         imageView.isHidden = false
-        coverImageView.isHidden = true
+        coverImageView?.isHidden = true
+
         if let imageTintColor = format.imageTintColor {
             imageView.tintColor = imageTintColor
-            coverImageView.tintColor = imageTintColor
+            coverImageView?.tintColor = imageTintColor
         } else {
             imageView.tintColor = .systemBlue
-            coverImageView.tintColor = .systemBlue
+            coverImageView?.tintColor = .systemBlue
         }
         
         // Primary button format
@@ -131,10 +166,10 @@ extension EmptyStateView {
         primaryButton.layer.shadowOpacity = 0.5
         
         if let buttonWidth = format.buttonWidth {
-            primaryButtonWidthConstraint.isActive = true
-            primaryButtonWidthConstraint.constant = buttonWidth
+            primaryButtonWidthConstraint?.isActive = true
+            primaryButtonWidthConstraint?.constant = buttonWidth
         } else {
-            primaryButtonWidthConstraint.isActive = false
+            primaryButtonWidthConstraint?.isActive = false
         }
         
         // Message format
@@ -158,8 +193,8 @@ extension EmptyStateView {
         }
         
         // Setup constraints
-        imageViewWidthConstraint.constant = format.imageSize.width
-        imageViewHeightConstraint.constant = format.imageSize.height
+        imageViewWidthConstraint?.constant = format.imageSize.width
+        imageViewHeightConstraint?.constant = format.imageSize.height
         
         setupViewPosition(format.position.view)
         setupTextPosition(format.position.text)
@@ -169,11 +204,37 @@ extension EmptyStateView {
     
 }
 
+extension EmptyStateView: NibLoadable {}
+
+// MARK: - EmptyState View - View Model
+
 extension EmptyStateView {
-    
-    func play() {
-        format.animation?.play?(self)
-    }
+
+  struct ViewModel {
+
+      var state: CustomState?
+
+      var image: UIImage?
+      var title: String?
+      var description: String?
+      var titleButton: String?
+
+  }
+
 }
 
-extension EmptyStateView: NibLoadable {}
+extension EmptyStateView.ViewModel {
+
+  init(state: CustomState) {
+    self.init(state: state, image: state.image, title: state.title,
+              description: state.description, titleButton: state.titleButton)
+  }
+
+  init(state: CustomState, dataSource: EmptyStateDataSource, container: EmptyState) {
+    self.init(state: state, image: dataSource.imageForState(state, inEmptyState: container),
+              title: dataSource.titleForState(state, inEmptyState: container),
+              description: dataSource.descriptionForState(state, inEmptyState: container),
+              titleButton: dataSource.titleButtonForState(state, inEmptyState: container))
+  }
+
+}
