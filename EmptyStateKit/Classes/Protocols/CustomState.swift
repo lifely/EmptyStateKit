@@ -9,10 +9,17 @@
 import UIKit
 
 public protocol CustomState {
+
+  // MARK: - Properties
+
     var image: UIImage? { get }
     var title: String? { get }
     var description: String? { get }
     var titleButton: String? { get }
+
+    var viewClass: NibLoadable.Type { get }
+
+
 }
 
 public extension CustomState {
@@ -32,4 +39,9 @@ public extension CustomState {
     var titleButton: String? {
         get { return nil }
     }
+
+    var viewClass: NibLoadable.Type {
+      return EmptyStateView.self
+    }
+
 }
