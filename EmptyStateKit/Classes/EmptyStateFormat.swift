@@ -18,7 +18,15 @@ public struct EmptyStateFormat {
     
     /// Button attributes
     public var buttonAttributes: [NSAttributedString.Key: Any] = [.font: UIFont(name: "AvenirNext-DemiBold", size: 14)!, .foregroundColor: UIColor.white]
-    
+
+    /// Background color
+    public var containerBackgroundColor: UIColor = .white
+
+    public var containerCornerRadius: CGFloat? = nil
+
+    /// container Edgets Insets
+    public var contentEdgetInset: UIEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+
     /// Button color
     public var buttonColor: UIColor = .red
     
@@ -47,7 +55,7 @@ public struct EmptyStateFormat {
     public var imageTintColor: UIColor? = nil
     
     /// Background color
-    public var backgroundColor: UIColor = .white
+    public var backgroundColor: UIColor = .clear
     
     /// Background Gradient color
     public var gradientColor: (UIColor, UIColor)? = nil
