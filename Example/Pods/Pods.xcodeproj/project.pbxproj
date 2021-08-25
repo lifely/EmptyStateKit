@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		037F0C809CE8FE4BDFEFA706352B197C /* EmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8485B44CB75F099F8EE2B85056E6638C /* EmptyStateView.xib */; };
-		04BB5771D0F52D66A5128124DB4E45AA /* EmptyStateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE4FB1F9BF8520FEF36C8F292056503 /* EmptyStateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15F7D2F5632B6B865AA79F07E17B6C67 /* CustomState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE4FDCFF0F12E4573C3A8A0599873E /* CustomState.swift */; };
-		202DEB7EC14CCBF497EE29E76397C616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		52B5562EF599DB70E65E980EC2B5AD45 /* EmptyStateView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F65F7F8E60915B6BF0C85DC21DCB2 /* EmptyStateView+Animations.swift */; };
-		55EA9E27EB75C8B15E9091E1917D4120 /* UIView+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739AF7B5A0C0CD2F1A859276B78FEB7 /* UIView+EmptyState.swift */; };
-		6681C7B1C421C57A4DAA820879A06EEC /* EmptyStateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F76D9676A4AFB214F8DF3B5A542537 /* EmptyStateKit-dummy.m */; };
-		7789FE628D247A869B7E8DB36EF85D85 /* EmptyStateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7061C3E0A447C1A28C3BB9017A69845 /* EmptyStateFormat.swift */; };
-		85A040B57C94E0AD5575090DF2787522 /* EmptyStateView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DE5019A0C4FB0A17F460012C34AA49 /* EmptyStateView+Positions.swift */; };
-		9270737A4CA6343479B14D6FD57666B2 /* EmptyStatePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D289BBB7B075F5802D537E8337136F /* EmptyStatePosition.swift */; };
-		A7BB6AC56FA5BA2AD9FDC81589BBF27C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		B406A56349FCC0C16AD1E8D5D7EDC5C3 /* Pods-EmptyStateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */; };
-		C180B4F164A02A250DE96BFD989C02B4 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF204F3D4D3CB9EE75F567E87A69E5E /* EmptyStateView.swift */; };
-		C4A0E045F2001083D101CC4F20F23880 /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FD059F738B22715F195C5A91AE4BA /* AssociationPolicy.swift */; };
-		CE0ADFE2A2961E7917193DE76B90ED65 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31708D5B13DF8DF0C3CECBA56E5B14F7 /* NibView.swift */; };
-		DEE5D7EA0604A93501C75CA9D3A15E50 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959E33186C6A72B9EA22EEBF6636FB1 /* UIView+Nib.swift */; };
-		E09ED87DC716C8300776A4F916F7CD3D /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A0DD511A23C2B324F6F3BBB2DF13A8 /* NibLoadable.swift */; };
-		E4376DBBCBA7CA135F1C60DCAC675C88 /* EmptyStateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034AE492068D9254938B8833C545A49A /* EmptyStateAnimation.swift */; };
-		F2B9D8299A68D700FACC60D6AB26CD8A /* Pods-EmptyStateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA9A2377C5D53C6D95FDA8B08026CE76 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC91CC8992978BB00F05E3DB6E305670 /* EmptyState.swift */; };
-		FD65AA6A3141254AFBE6744FC175F16B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		054671373F04044A8A09AD8CEF85DEF4 /* EmptyStateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE76F52091691D366D5BF026AEE7CB /* EmptyStateFormat.swift */; };
+		0BFF477961385ED1532B842B8A149336 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DD88D782743FAF062824495B0062B /* UIView+Nib.swift */; };
+		264C89D54AF652394C1D348F59A0C071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		37FB696F276024515DBEE33AEB5D48DD /* UIView+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55F456876AEB659C072CF9A3ABA2AC /* UIView+EmptyState.swift */; };
+		3C0CF6AF682612687C87E72581718D36 /* Pods-EmptyStateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */; };
+		45AD6AEC5C122F8D0EE1B7330BBF0923 /* EmptyStateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ACB5D2C686C2A6A22273A21030286 /* EmptyStateAnimation.swift */; };
+		7CA95E9D9761EEA97225BC78E647EE91 /* CustomState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D166219B29F87E0809E2958D20C3261E /* CustomState.swift */; };
+		8BF028B859F5B84D365E02813C6DE56C /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715C252BFD7A65098E021DA4B1B52C3A /* EmptyState.swift */; };
+		8EE73A84EB58157F7F462B605F50DC61 /* EmptyStateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A896C12678EB11E45015F29DB48249A /* EmptyStateKit-dummy.m */; };
+		91BB5201919A0640C4AC73A82A87A2F5 /* EmptyStateView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2471DD356E43AB15D3C20FCB21AC54C /* EmptyStateView+Animations.swift */; };
+		93806F7F2EDE7F53BA2EFE6383135264 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52139732A6D4EA167AF0F54DE6E35300 /* NibLoadable.swift */; };
+		A6922F461B919C87907F4F60F61C5DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BFB6EE432046941A1C107B81B30D92F0 /* EmptyStateView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76052148B8FDB747DF946AD87561294 /* EmptyStateView+Positions.swift */; };
+		C25F5CF9019C4904AD06375CA098E2C8 /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB3C3A9DC42B0E35B77E87C0AA668 /* AssociationPolicy.swift */; };
+		C383780093B185EB6836096FB4F0DE18 /* EmptyStatePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BC93F369074FDDA40A53196A8D346 /* EmptyStatePosition.swift */; };
+		CB24EF6B86DBD778E4B8FAC20C987877 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45061214453AB2148E603B511ADAEFF2 /* NibView.swift */; };
+		CFA2587EB8441A6F84C8661C9209A913 /* EmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89AD4B7EF5848B37865B417080102199 /* EmptyStateView.xib */; };
+		D95AE64FF982E137E11CC0B5698EBE47 /* EmptyStateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC65DCBE5DB617A9D75C1BB1D961B6C5 /* EmptyStateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D967AA13C92CFF5AC8005225C395843D /* Pods-EmptyStateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD64B28C4E0D849B7E2585823D2A2763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		ED55CB99ADD33B0175A01819E89630E1 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CB86537B0917BE3EF78E091D02C8B /* EmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		192CB76359531B5EF949826DBEFEAE62 /* PBXContainerItemProxy */ = {
+		B3DCB04B8E34D51DDE380A60F3268644 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,60 +41,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034AE492068D9254938B8833C545A49A /* EmptyStateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateAnimation.swift; sourceTree = "<group>"; };
-		03D3DA1EC07A27E50277B2D62D3C981C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		23A0DD511A23C2B324F6F3BBB2DF13A8 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
-		2D2F65F7F8E60915B6BF0C85DC21DCB2 /* EmptyStateView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Animations.swift"; sourceTree = "<group>"; };
+		003BC93F369074FDDA40A53196A8D346 /* EmptyStatePosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStatePosition.swift; sourceTree = "<group>"; };
+		07CE76F52091691D366D5BF026AEE7CB /* EmptyStateFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateFormat.swift; path = EmptyStateKit/Classes/EmptyStateFormat.swift; sourceTree = "<group>"; };
+		0A7DB3C3A9DC42B0E35B77E87C0AA668 /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociationPolicy.swift; sourceTree = "<group>"; };
+		2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmptyStateKit.framework; path = EmptyStateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276ACB5D2C686C2A6A22273A21030286 /* EmptyStateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateAnimation.swift; sourceTree = "<group>"; };
 		2E0CD00FD69293AC7BA0E790C5D189CE /* Pods-EmptyStateKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyStateKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		31708D5B13DF8DF0C3CECBA56E5B14F7 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = EmptyStateKit/Classes/NibView.swift; sourceTree = "<group>"; };
-		36DE5019A0C4FB0A17F460012C34AA49 /* EmptyStateView+Positions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Positions.swift"; sourceTree = "<group>"; };
-		375D683D3183E47A3E708836A16DAE78 /* EmptyStateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmptyStateKit-Info.plist"; sourceTree = "<group>"; };
-		3C5EA1846BA612E91C65D050DEC20BF3 /* EmptyStateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmptyStateKit.modulemap; sourceTree = "<group>"; };
-		3F03532B11867CC3FEFF3F6567FA8829 /* EmptyStateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmptyStateKit.framework; path = EmptyStateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43D289BBB7B075F5802D537E8337136F /* EmptyStatePosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStatePosition.swift; sourceTree = "<group>"; };
-		48F32880B75FBCF7C3D0A0F004DDB86C /* EmptyStateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmptyStateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6DDE4FDCFF0F12E4573C3A8A0599873E /* CustomState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
+		325DD88D782743FAF062824495B0062B /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		3C12B5F4B82C05579E781508ACB8316A /* EmptyStateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmptyStateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45061214453AB2148E603B511ADAEFF2 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = EmptyStateKit/Classes/NibView.swift; sourceTree = "<group>"; };
+		52139732A6D4EA167AF0F54DE6E35300 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		5231C27F8B1D1CA6240E1D016207C8E7 /* Pods_EmptyStateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmptyStateKit_Example.framework; path = "Pods-EmptyStateKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDEC001356BA67108D648CBB810D32A /* EmptyStateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmptyStateKit-Info.plist"; sourceTree = "<group>"; };
+		5F7CB86537B0917BE3EF78E091D02C8B /* EmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateView.swift; path = EmptyStateKit/Classes/EmptyStateView.swift; sourceTree = "<group>"; };
+		6B47A1A5E9066B3BCC51E586C8CA25DD /* EmptyStateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-prefix.pch"; sourceTree = "<group>"; };
+		715C252BFD7A65098E021DA4B1B52C3A /* EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyState.swift; path = EmptyStateKit/Classes/EmptyState.swift; sourceTree = "<group>"; };
 		72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmptyStateKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		7959E33186C6A72B9EA22EEBF6636FB1 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
-		79F76D9676A4AFB214F8DF3B5A542537 /* EmptyStateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmptyStateKit-dummy.m"; sourceTree = "<group>"; };
-		8485B44CB75F099F8EE2B85056E6638C /* EmptyStateView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmptyStateView.xib; path = EmptyStateKit/Classes/Resources/EmptyStateView.xib; sourceTree = "<group>"; };
-		8D1FD059F738B22715F195C5A91AE4BA /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociationPolicy.swift; sourceTree = "<group>"; };
-		9739AF7B5A0C0CD2F1A859276B78FEB7 /* UIView+EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+EmptyState.swift"; sourceTree = "<group>"; };
+		88FDA1756DE555CA79E6FEF1ECCCD27C /* EmptyStateKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.debug.xcconfig; sourceTree = "<group>"; };
+		89AD4B7EF5848B37865B417080102199 /* EmptyStateView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmptyStateView.xib; path = EmptyStateKit/Classes/Resources/EmptyStateView.xib; sourceTree = "<group>"; };
+		9A896C12678EB11E45015F29DB48249A /* EmptyStateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmptyStateKit-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A177E9E308E4025B1AFA3E804A8CB868 /* Pods-EmptyStateKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyStateKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A7061C3E0A447C1A28C3BB9017A69845 /* EmptyStateFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateFormat.swift; path = EmptyStateKit/Classes/EmptyStateFormat.swift; sourceTree = "<group>"; };
-		A97555560E67C6CC49FBCC2176F9948F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ABB604F0C77683D114667C9D7ED615F2 /* EmptyStateKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.release.xcconfig; sourceTree = "<group>"; };
+		B2471DD356E43AB15D3C20FCB21AC54C /* EmptyStateView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Animations.swift"; sourceTree = "<group>"; };
 		B6790F881059DDFDDCF9B86F4207658D /* Pods-EmptyStateKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyStateKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B76052148B8FDB747DF946AD87561294 /* EmptyStateView+Positions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Positions.swift"; sourceTree = "<group>"; };
+		BE55F456876AEB659C072CF9A3ABA2AC /* UIView+EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+EmptyState.swift"; sourceTree = "<group>"; };
 		BE654F42BDC94350CAF282B94AF4137E /* Pods-EmptyStateKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyStateKit_Example-Info.plist"; sourceTree = "<group>"; };
-		C3D145705710AAD4A1ABAF11878857AE /* Pods_EmptyStateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmptyStateKit_Example.framework; path = "Pods-EmptyStateKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBF204F3D4D3CB9EE75F567E87A69E5E /* EmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateView.swift; path = EmptyStateKit/Classes/EmptyStateView.swift; sourceTree = "<group>"; };
+		C31104946B382A188CBA2C587992F946 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D157E52A74F110506832292FE8832467 /* Pods-EmptyStateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyStateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D166219B29F87E0809E2958D20C3261E /* CustomState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D6C72A66A05A9CE43E663BD9F19FF2E5 /* Pods-EmptyStateKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmptyStateKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DAF4293D1E48500D6E43D7F5BC789322 /* EmptyStateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.xcconfig; sourceTree = "<group>"; };
 		DB4F5FF9B3ADBD0DE8D732C9F0F4815E /* Pods-EmptyStateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmptyStateKit_Example.modulemap"; sourceTree = "<group>"; };
 		DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmptyStateKit_Example-dummy.m"; sourceTree = "<group>"; };
-		DFE4FB1F9BF8520FEF36C8F292056503 /* EmptyStateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-umbrella.h"; sourceTree = "<group>"; };
-		E27868DA22BC2305AD95DD52A83AFF4D /* EmptyStateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-prefix.pch"; sourceTree = "<group>"; };
-		EC91CC8992978BB00F05E3DB6E305670 /* EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyState.swift; path = EmptyStateKit/Classes/EmptyState.swift; sourceTree = "<group>"; };
-		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DFA4647E27D998DD413A1441944F416E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E30CE09E0E64D687FD53E94FE07EE22C /* EmptyStateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmptyStateKit.modulemap; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FC65DCBE5DB617A9D75C1BB1D961B6C5 /* EmptyStateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		008A2605EADC00EFB7352010811A1BA2 /* Frameworks */ = {
+		1E54239CC5EBB3F9129D2784086E07CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BB6AC56FA5BA2AD9FDC81589BBF27C /* Foundation.framework in Frameworks */,
-				FD65AA6A3141254AFBE6744FC175F16B /* UIKit.framework in Frameworks */,
+				264C89D54AF652394C1D348F59A0C071 /* Foundation.framework in Frameworks */,
+				DD64B28C4E0D849B7E2585823D2A2763 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D1B3D8902ED62A539BF231EA42F5498 /* Frameworks */ = {
+		F1D2A4162C148984CE7DF55387497EB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202DEB7EC14CCBF497EE29E76397C616 /* Foundation.framework in Frameworks */,
+				A6922F461B919C87907F4F60F61C5DF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,89 +113,74 @@
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		350A0287931CA346DE684430738E6A4A /* Products */ = {
+		27C20B157969A5C7BDB8BC240EE37B83 /* Positions */ = {
 			isa = PBXGroup;
 			children = (
-				3F03532B11867CC3FEFF3F6567FA8829 /* EmptyStateKit.framework */,
-				C3D145705710AAD4A1ABAF11878857AE /* Pods_EmptyStateKit_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		36E1216775FC252D5F94DD790049AE33 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				48F32880B75FBCF7C3D0A0F004DDB86C /* EmptyStateKit.podspec */,
-				A97555560E67C6CC49FBCC2176F9948F /* LICENSE */,
-				03D3DA1EC07A27E50277B2D62D3C981C /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4B78674ECF0562C846C5316598BE6128 /* Positions */ = {
-			isa = PBXGroup;
-			children = (
-				43D289BBB7B075F5802D537E8337136F /* EmptyStatePosition.swift */,
-				36DE5019A0C4FB0A17F460012C34AA49 /* EmptyStateView+Positions.swift */,
+				003BC93F369074FDDA40A53196A8D346 /* EmptyStatePosition.swift */,
+				B76052148B8FDB747DF946AD87561294 /* EmptyStateView+Positions.swift */,
 			);
 			name = Positions;
 			path = EmptyStateKit/Classes/Positions;
 			sourceTree = "<group>";
 		};
-		52E0024F7EA7DAC5393CF16BD9F38594 /* Support Files */ = {
+		350A0287931CA346DE684430738E6A4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C5EA1846BA612E91C65D050DEC20BF3 /* EmptyStateKit.modulemap */,
-				DAF4293D1E48500D6E43D7F5BC789322 /* EmptyStateKit.xcconfig */,
-				79F76D9676A4AFB214F8DF3B5A542537 /* EmptyStateKit-dummy.m */,
-				375D683D3183E47A3E708836A16DAE78 /* EmptyStateKit-Info.plist */,
-				E27868DA22BC2305AD95DD52A83AFF4D /* EmptyStateKit-prefix.pch */,
-				DFE4FB1F9BF8520FEF36C8F292056503 /* EmptyStateKit-umbrella.h */,
+				2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit.framework */,
+				5231C27F8B1D1CA6240E1D016207C8E7 /* Pods_EmptyStateKit_Example.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EmptyStateKit";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6878EA5B008A704D16CB6E24495A5F5D /* AssociationPolicy */ = {
+		41C2440CA929C968692CFAEA3C1D32E4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8D1FD059F738B22715F195C5A91AE4BA /* AssociationPolicy.swift */,
+				3C12B5F4B82C05579E781508ACB8316A /* EmptyStateKit.podspec */,
+				DFA4647E27D998DD413A1441944F416E /* LICENSE */,
+				C31104946B382A188CBA2C587992F946 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4D21E27ABA1FE081991663F28E147717 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				276ACB5D2C686C2A6A22273A21030286 /* EmptyStateAnimation.swift */,
+				B2471DD356E43AB15D3C20FCB21AC54C /* EmptyStateView+Animations.swift */,
+			);
+			name = Animations;
+			path = EmptyStateKit/Classes/Animations;
+			sourceTree = "<group>";
+		};
+		5490BFAA5068E5471A3BBCF7924CE2F7 /* AssociationPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				0A7DB3C3A9DC42B0E35B77E87C0AA668 /* AssociationPolicy.swift */,
 			);
 			name = AssociationPolicy;
 			path = EmptyStateKit/Classes/AssociationPolicy;
 			sourceTree = "<group>";
 		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		8A6F7E57A1790205BBA0F87FDB1D908F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A8F371783CBA89F33540A2CED2803F15 /* EmptyStateKit */,
+				AA25ECD3BFDA58F3CE46A6BD3F277AD5 /* EmptyStateKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A8F371783CBA89F33540A2CED2803F15 /* EmptyStateKit */ = {
-			isa = PBXGroup;
-			children = (
-				EC91CC8992978BB00F05E3DB6E305670 /* EmptyState.swift */,
-				A7061C3E0A447C1A28C3BB9017A69845 /* EmptyStateFormat.swift */,
-				CBF204F3D4D3CB9EE75F567E87A69E5E /* EmptyStateView.swift */,
-				31708D5B13DF8DF0C3CECBA56E5B14F7 /* NibView.swift */,
-				B880236BBEF3783A17B931B532ED13C5 /* Animations */,
-				6878EA5B008A704D16CB6E24495A5F5D /* AssociationPolicy */,
-				CB6FEEACFA55940B07D5A79D87EA1A9E /* Extensions */,
-				36E1216775FC252D5F94DD790049AE33 /* Pod */,
-				4B78674ECF0562C846C5316598BE6128 /* Positions */,
-				BDE404D266AF3A6AB7C4729907034D57 /* Protocols */,
-				CFEEE4A58A60766A8A1DC36C99AECF8D /* Resources */,
-				52E0024F7EA7DAC5393CF16BD9F38594 /* Support Files */,
-			);
-			name = EmptyStateKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		AA092D3BEB672A6F378BF7EC6BA0ACD8 /* Pods-EmptyStateKit_Example */ = {
@@ -214,34 +200,34 @@
 			path = "Target Support Files/Pods-EmptyStateKit_Example";
 			sourceTree = "<group>";
 		};
-		B880236BBEF3783A17B931B532ED13C5 /* Animations */ = {
+		AA25ECD3BFDA58F3CE46A6BD3F277AD5 /* EmptyStateKit */ = {
 			isa = PBXGroup;
 			children = (
-				034AE492068D9254938B8833C545A49A /* EmptyStateAnimation.swift */,
-				2D2F65F7F8E60915B6BF0C85DC21DCB2 /* EmptyStateView+Animations.swift */,
+				715C252BFD7A65098E021DA4B1B52C3A /* EmptyState.swift */,
+				07CE76F52091691D366D5BF026AEE7CB /* EmptyStateFormat.swift */,
+				5F7CB86537B0917BE3EF78E091D02C8B /* EmptyStateView.swift */,
+				89AD4B7EF5848B37865B417080102199 /* EmptyStateView.xib */,
+				45061214453AB2148E603B511ADAEFF2 /* NibView.swift */,
+				4D21E27ABA1FE081991663F28E147717 /* Animations */,
+				5490BFAA5068E5471A3BBCF7924CE2F7 /* AssociationPolicy */,
+				F5443D953D8B75A5A514E5BABAD109F9 /* Extensions */,
+				41C2440CA929C968692CFAEA3C1D32E4 /* Pod */,
+				27C20B157969A5C7BDB8BC240EE37B83 /* Positions */,
+				C021DCDF083E58F77B7F90E468CE431B /* Protocols */,
+				FAE55F7F1123A3C1C826A1C18F29EE3C /* Support Files */,
 			);
-			name = Animations;
-			path = EmptyStateKit/Classes/Animations;
+			name = EmptyStateKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		BDE404D266AF3A6AB7C4729907034D57 /* Protocols */ = {
+		C021DCDF083E58F77B7F90E468CE431B /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				6DDE4FDCFF0F12E4573C3A8A0599873E /* CustomState.swift */,
-				23A0DD511A23C2B324F6F3BBB2DF13A8 /* NibLoadable.swift */,
+				D166219B29F87E0809E2958D20C3261E /* CustomState.swift */,
+				52139732A6D4EA167AF0F54DE6E35300 /* NibLoadable.swift */,
 			);
 			name = Protocols;
 			path = EmptyStateKit/Classes/Protocols;
-			sourceTree = "<group>";
-		};
-		CB6FEEACFA55940B07D5A79D87EA1A9E /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				9739AF7B5A0C0CD2F1A859276B78FEB7 /* UIView+EmptyState.swift */,
-				7959E33186C6A72B9EA22EEBF6636FB1 /* UIView+Nib.swift */,
-			);
-			name = Extensions;
-			path = EmptyStateKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -255,39 +241,47 @@
 			);
 			sourceTree = "<group>";
 		};
-		CFEEE4A58A60766A8A1DC36C99AECF8D /* Resources */ = {
+		F5443D953D8B75A5A514E5BABAD109F9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8485B44CB75F099F8EE2B85056E6638C /* EmptyStateView.xib */,
+				BE55F456876AEB659C072CF9A3ABA2AC /* UIView+EmptyState.swift */,
+				325DD88D782743FAF062824495B0062B /* UIView+Nib.swift */,
 			);
-			name = Resources;
+			name = Extensions;
+			path = EmptyStateKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+		FAE55F7F1123A3C1C826A1C18F29EE3C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
-				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+				E30CE09E0E64D687FD53E94FE07EE22C /* EmptyStateKit.modulemap */,
+				9A896C12678EB11E45015F29DB48249A /* EmptyStateKit-dummy.m */,
+				5DDEC001356BA67108D648CBB810D32A /* EmptyStateKit-Info.plist */,
+				6B47A1A5E9066B3BCC51E586C8CA25DD /* EmptyStateKit-prefix.pch */,
+				FC65DCBE5DB617A9D75C1BB1D961B6C5 /* EmptyStateKit-umbrella.h */,
+				88FDA1756DE555CA79E6FEF1ECCCD27C /* EmptyStateKit.debug.xcconfig */,
+				ABB604F0C77683D114667C9D7ED615F2 /* EmptyStateKit.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EmptyStateKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		698E5AA79860BFE8226DF98F755E30F3 /* Headers */ = {
+		214C9746A906DC21E9566070A63C70DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B9D8299A68D700FACC60D6AB26CD8A /* Pods-EmptyStateKit_Example-umbrella.h in Headers */,
+				D967AA13C92CFF5AC8005225C395843D /* Pods-EmptyStateKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E334AA83191800DFA8EA06D433C3896F /* Headers */ = {
+		D4D7FBD32F2B85065DC829E690828727 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BB5771D0F52D66A5128124DB4E45AA /* EmptyStateKit-umbrella.h in Headers */,
+				D95AE64FF982E137E11CC0B5698EBE47 /* EmptyStateKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +290,12 @@
 /* Begin PBXNativeTarget section */
 		151849092865DFECC0DA34C639EC1EC3 /* EmptyStateKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58E91EE7BBD12446A58E8AF74754119C /* Build configuration list for PBXNativeTarget "EmptyStateKit" */;
+			buildConfigurationList = 0316BE60E7AC35E6CAC97D2FB803458F /* Build configuration list for PBXNativeTarget "EmptyStateKit" */;
 			buildPhases = (
-				E334AA83191800DFA8EA06D433C3896F /* Headers */,
-				0D3A5B42E41E46182C65AAC252385008 /* Sources */,
-				008A2605EADC00EFB7352010811A1BA2 /* Frameworks */,
-				2D125C3B78DEADFF7E141A75FA85D68E /* Resources */,
+				D4D7FBD32F2B85065DC829E690828727 /* Headers */,
+				CED819FA25CCA72C84EC7110180E939E /* Sources */,
+				1E54239CC5EBB3F9129D2784086E07CA /* Frameworks */,
+				CB565A546396BF65510304C491F2D6E2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -309,26 +303,26 @@
 			);
 			name = EmptyStateKit;
 			productName = EmptyStateKit;
-			productReference = 3F03532B11867CC3FEFF3F6567FA8829 /* EmptyStateKit.framework */;
+			productReference = 2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6E52A4D0B879F2535F898C344F97EB4B /* Pods-EmptyStateKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9EFD98EDFF16B4418CD7218B318BC73 /* Build configuration list for PBXNativeTarget "Pods-EmptyStateKit_Example" */;
+			buildConfigurationList = 7A36905EC0A32D4065FF3ADBC4123572 /* Build configuration list for PBXNativeTarget "Pods-EmptyStateKit_Example" */;
 			buildPhases = (
-				698E5AA79860BFE8226DF98F755E30F3 /* Headers */,
-				7A6E17A3BA33DE15136A725B4D57A745 /* Sources */,
-				2D1B3D8902ED62A539BF231EA42F5498 /* Frameworks */,
-				950A4E81835FBB712721190F813B3552 /* Resources */,
+				214C9746A906DC21E9566070A63C70DA /* Headers */,
+				EDAB0FD94D490AD7DABE953D1841539C /* Sources */,
+				F1D2A4162C148984CE7DF55387497EB7 /* Frameworks */,
+				ED63F9CEDC20AF990FF75FD3A86AD3C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BD6F6138A4A808EFFBF09AB104687CC9 /* PBXTargetDependency */,
+				623DDB7A3AB94422F973F4F2653DE162 /* PBXTargetDependency */,
 			);
 			name = "Pods-EmptyStateKit_Example";
 			productName = "Pods-EmptyStateKit_Example";
-			productReference = C3D145705710AAD4A1ABAF11878857AE /* Pods_EmptyStateKit_Example.framework */;
+			productReference = 5231C27F8B1D1CA6240E1D016207C8E7 /* Pods_EmptyStateKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -337,15 +331,16 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 350A0287931CA346DE684430738E6A4A /* Products */;
@@ -359,15 +354,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D125C3B78DEADFF7E141A75FA85D68E /* Resources */ = {
+		CB565A546396BF65510304C491F2D6E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037F0C809CE8FE4BDFEFA706352B197C /* EmptyStateView.xib in Resources */,
+				CFA2587EB8441A6F84C8661C9209A913 /* EmptyStateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		950A4E81835FBB712721190F813B3552 /* Resources */ = {
+		ED63F9CEDC20AF990FF75FD3A86AD3C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,51 +372,82 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D3A5B42E41E46182C65AAC252385008 /* Sources */ = {
+		CED819FA25CCA72C84EC7110180E939E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A0E045F2001083D101CC4F20F23880 /* AssociationPolicy.swift in Sources */,
-				15F7D2F5632B6B865AA79F07E17B6C67 /* CustomState.swift in Sources */,
-				FA9A2377C5D53C6D95FDA8B08026CE76 /* EmptyState.swift in Sources */,
-				E4376DBBCBA7CA135F1C60DCAC675C88 /* EmptyStateAnimation.swift in Sources */,
-				7789FE628D247A869B7E8DB36EF85D85 /* EmptyStateFormat.swift in Sources */,
-				6681C7B1C421C57A4DAA820879A06EEC /* EmptyStateKit-dummy.m in Sources */,
-				9270737A4CA6343479B14D6FD57666B2 /* EmptyStatePosition.swift in Sources */,
-				52B5562EF599DB70E65E980EC2B5AD45 /* EmptyStateView+Animations.swift in Sources */,
-				85A040B57C94E0AD5575090DF2787522 /* EmptyStateView+Positions.swift in Sources */,
-				C180B4F164A02A250DE96BFD989C02B4 /* EmptyStateView.swift in Sources */,
-				E09ED87DC716C8300776A4F916F7CD3D /* NibLoadable.swift in Sources */,
-				CE0ADFE2A2961E7917193DE76B90ED65 /* NibView.swift in Sources */,
-				55EA9E27EB75C8B15E9091E1917D4120 /* UIView+EmptyState.swift in Sources */,
-				DEE5D7EA0604A93501C75CA9D3A15E50 /* UIView+Nib.swift in Sources */,
+				C25F5CF9019C4904AD06375CA098E2C8 /* AssociationPolicy.swift in Sources */,
+				7CA95E9D9761EEA97225BC78E647EE91 /* CustomState.swift in Sources */,
+				8BF028B859F5B84D365E02813C6DE56C /* EmptyState.swift in Sources */,
+				45AD6AEC5C122F8D0EE1B7330BBF0923 /* EmptyStateAnimation.swift in Sources */,
+				054671373F04044A8A09AD8CEF85DEF4 /* EmptyStateFormat.swift in Sources */,
+				8EE73A84EB58157F7F462B605F50DC61 /* EmptyStateKit-dummy.m in Sources */,
+				C383780093B185EB6836096FB4F0DE18 /* EmptyStatePosition.swift in Sources */,
+				91BB5201919A0640C4AC73A82A87A2F5 /* EmptyStateView+Animations.swift in Sources */,
+				BFB6EE432046941A1C107B81B30D92F0 /* EmptyStateView+Positions.swift in Sources */,
+				ED55CB99ADD33B0175A01819E89630E1 /* EmptyStateView.swift in Sources */,
+				93806F7F2EDE7F53BA2EFE6383135264 /* NibLoadable.swift in Sources */,
+				CB24EF6B86DBD778E4B8FAC20C987877 /* NibView.swift in Sources */,
+				37FB696F276024515DBEE33AEB5D48DD /* UIView+EmptyState.swift in Sources */,
+				0BFF477961385ED1532B842B8A149336 /* UIView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6E17A3BA33DE15136A725B4D57A745 /* Sources */ = {
+		EDAB0FD94D490AD7DABE953D1841539C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B406A56349FCC0C16AD1E8D5D7EDC5C3 /* Pods-EmptyStateKit_Example-dummy.m in Sources */,
+				3C0CF6AF682612687C87E72581718D36 /* Pods-EmptyStateKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BD6F6138A4A808EFFBF09AB104687CC9 /* PBXTargetDependency */ = {
+		623DDB7A3AB94422F973F4F2653DE162 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EmptyStateKit;
 			target = 151849092865DFECC0DA34C639EC1EC3 /* EmptyStateKit */;
-			targetProxy = 192CB76359531B5EF949826DBEFEAE62 /* PBXContainerItemProxy */;
+			targetProxy = B3DCB04B8E34D51DDE380A60F3268644 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+		16476D9EC7FF3CE2B95CD03D353B725B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FDA1756DE555CA79E6FEF1ECCCD27C /* EmptyStateKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmptyStateKit/EmptyStateKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit.modulemap";
+				PRODUCT_MODULE_NAME = EmptyStateKit;
+				PRODUCT_NAME = EmptyStateKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -444,6 +470,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -477,16 +504,80 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		8AED44AAB9DED9E3B89104F5A2E15EFD /* Release */ = {
+		6C8509E2CB26C2B870BBDA8A3E333570 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAF4293D1E48500D6E43D7F5BC789322 /* EmptyStateKit.xcconfig */;
+			baseConfigurationReference = B6790F881059DDFDDCF9B86F4207658D /* Pods-EmptyStateKit_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F34440BA974357A14D8670A70C623DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D157E52A74F110506832292FE8832467 /* Pods-EmptyStateKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3BC3F2EE66DED95E5480D2538675D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB604F0C77683D114667C9D7ED615F2 /* EmptyStateKit.release.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -514,41 +605,11 @@
 			};
 			name = Release;
 		};
-		9554014AB2DE607F88AC9606B58227FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAF4293D1E48500D6E43D7F5BC789322 /* EmptyStateKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EmptyStateKit/EmptyStateKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit.modulemap";
-				PRODUCT_MODULE_NAME = EmptyStateKit;
-				PRODUCT_NAME = EmptyStateKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -571,6 +632,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -600,104 +662,37 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B35FAA3ABD500899A3A1B1586C57552C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D157E52A74F110506832292FE8832467 /* Pods-EmptyStateKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D301D993F23C3E163C35F496515354AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6790F881059DDFDDCF9B86F4207658D /* Pods-EmptyStateKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0316BE60E7AC35E6CAC97D2FB803458F /* Build configuration list for PBXNativeTarget "EmptyStateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16476D9EC7FF3CE2B95CD03D353B725B /* Debug */,
+				B3BC3F2EE66DED95E5480D2538675D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07488D4657FB0A78086563621D425F8A /* Debug */,
-				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58E91EE7BBD12446A58E8AF74754119C /* Build configuration list for PBXNativeTarget "EmptyStateKit" */ = {
+		7A36905EC0A32D4065FF3ADBC4123572 /* Build configuration list for PBXNativeTarget "Pods-EmptyStateKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9554014AB2DE607F88AC9606B58227FE /* Debug */,
-				8AED44AAB9DED9E3B89104F5A2E15EFD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9EFD98EDFF16B4418CD7218B318BC73 /* Build configuration list for PBXNativeTarget "Pods-EmptyStateKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D301D993F23C3E163C35F496515354AB /* Debug */,
-				B35FAA3ABD500899A3A1B1586C57552C /* Release */,
+				6C8509E2CB26C2B870BBDA8A3E333570 /* Debug */,
+				8F34440BA974357A14D8670A70C623DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
