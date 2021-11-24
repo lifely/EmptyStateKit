@@ -39,7 +39,7 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func viewDidPressHereButton(_ sender: UIButton) {
-        view.emptyState.show(MainState.noInternet)
+        view.emptyState.show(MainState.noInternet(view))
     }
     
     private func setupNavigation() {
@@ -54,9 +54,10 @@ class MainViewController: UIViewController {
 
 extension MainViewController: EmptyStateDelegate {
     
-    func emptyState(emptyState: EmptyState, didPressButton button: UIButton) {
+  func emptyState(emptyState: EmptyState, didPressButton button: UIButton, state: Any?) {
         view.emptyState.hide()
     }
+
 }
 
 extension MainViewController: EmptyStateDataSource {

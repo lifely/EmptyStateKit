@@ -87,16 +87,15 @@ enum TableState: CustomState, EmptyStateProtocol {
         }
     }
 
-
-  public var model: SimpleEmptyStateView.Model {
-    return  SimpleEmptyStateView.Model(error: nil, title: "noBox", description: "Test", actionTitle: "Test")
+  public var model: OriginalEmptyStateView.Model {
+    return OriginalEmptyStateView.Model(title: title, description: description, image: image, actionTitle: titleButton)
   }
 
 //  public var format: EmptyStateFormat { return EmptyStateFormat() }
 
-  public var animation: EmptyStateAnimation { return EmptyStateAnimation.none }
+  public var animation: EmptyStateAnimation { return format.animation ?? DefaultEmptyStateAnimation.none }
 
-  public var viewClass: SimpleEmptyStateView.Type { return SimpleEmptyStateView.self }
+  public var viewClass: OriginalEmptyStateView.Type { return OriginalEmptyStateView.self }
 
 
 }

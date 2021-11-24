@@ -21,20 +21,32 @@ class TableViewController: UITableViewController {
     var selected = TableState.noNotifications
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        fetchData()
+      super.viewDidLoad()
+      view.emptyState.prepareTableCollectionViews()
+
+      fetchData()
     }
+
+  override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillDisappear(animated)
+
+    view.emptyState.clear()
+  }
     
-    @IBAction func didRefresh(_ sender: UIRefreshControl) {
-        refreshControl?.endRefreshing()
-    }
+  @IBAction func didRefresh(_ sender: UIRefreshControl) {
+    refreshControl?.endRefreshing()
+  }
+
+  deinit {
+    print("Test memory deinit TableControler")
+  }
 }
 
 extension TableViewController {
     
     private func fetchData() {
-      let test = SimpleEmptyState.noBox
-      let view = SimpleEmptyStateView(state: test).configure(MainState.noInternet)
+//      let test = SimpleEmptyState.noBox
+//      let view = SimpleEmptyStateView(state: test).configure(MainState.noInternet)
 //
 //      let name = SimpleEmptyStateView.nibName
 //      let nameOr = OriginalEmptyStateView.nibName
@@ -108,7 +120,16 @@ extension TableViewController {
 
 extension TableViewController: EmptyStateDelegate {
     
-    func emptyState(emptyState: EmptyState, didPressButton button: UIButton) {
-        fetchData()
-    }
+  func emptyState(emptyState: EmptyState, didPressButton button: UIButton, state: Any?) {
+//    if let state = state as? TableState {
+//      guard case .noTags = state else {
+//        return print("test")
+//      }
+//
+//      print("truc")
+//    }
+
+    fetchData()
+  }
+
 }

@@ -11,13 +11,24 @@ import EmptyStateKit
 
 enum MainState: EmptyStateProtocol {
 
-    case noInternet
+    case noInternet(UIView)
 
   public var model: OriginalEmptyStateView.Model {
+    guard case let .noInternet(view) = self else {
+      return  OriginalEmptyStateView.Model(error: nil, title: "We’re Sorry",
+                                           description: "Our staff is still working on the issue for better experience",
+                                           image: UIImage(named: "Internet"),
+                                           actionTitle: "Try again?")
+    }
+
+
+
     return  OriginalEmptyStateView.Model(error: nil, title: "We’re Sorry",
                                          description: "Our staff is still working on the issue for better experience",
                                          image: UIImage(named: "Internet"),
-                                         actionTitle: "Try again?")
+                                         actionTitle: "Try again?") { _ in
+      view.emptyState.hide()
+    }
   }
 
   public var format: EmptyStateFormat {
@@ -35,7 +46,7 @@ enum MainState: EmptyStateProtocol {
     return format
   }
 
-  public var animation: EmptyStateAnimation { return EmptyStateAnimation.none }
+  public var animation: EmptyStateAnimation { return DefaultEmptyStateAnimation.scale(0.3, 0.3) }
 
   public var viewClass: OriginalEmptyStateView.Type { return OriginalEmptyStateView.self }
 

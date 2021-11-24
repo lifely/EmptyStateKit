@@ -23,7 +23,7 @@ extension TableState {
             var format = EmptyStateFormat()
             format.buttonColor = "44CCD6".hexColor
             format.position = EmptyStatePosition(view: .center, text: .center, image: .top)
-            format.animation = EmptyStateAnimation.fade(0.3, 0.3)
+            format.animation = DefaultEmptyStateAnimation.fade(0.3, 0.3)
             format.verticalMargin = -10
             format.horizontalMargin = 40
             format.imageSize = CGSize(width: 320, height: 200)
@@ -35,7 +35,7 @@ extension TableState {
             var format = EmptyStateFormat()
             format.buttonColor = "FF386C".hexColor
             format.position = EmptyStatePosition(view: .center, text: .center, image: .bottom)
-            format.animation = EmptyStateAnimation.fade(0.3, 0.3)
+            format.animation = DefaultEmptyStateAnimation.fade(0.3, 0.3)
             format.verticalMargin = -10
             format.horizontalMargin = 40
             format.imageSize = CGSize(width: 320, height: 200)
@@ -64,7 +64,7 @@ extension TableState {
             format.buttonAttributes = [.font: UIFont(name: "AvenirNext-DemiBold", size: 14)!, .foregroundColor: "44CCD6".hexColor, .underlineStyle: NSUnderlineStyle.single.rawValue] // , .underlineStyle: NSUnderlineStyle.single
             format.buttonTopMargin = 10
             format.position = EmptyStatePosition(view: .top, text: .center, image: .top)
-            format.animation = EmptyStateAnimation.fade(0.3, 0.3)
+            format.animation = DefaultEmptyStateAnimation.fade(0.3, 0.3)
             format.verticalMargin = 20
             format.horizontalMargin = 40
             format.imageSize = CGSize(width: 320, height: 200)
@@ -76,7 +76,7 @@ extension TableState {
             var format = EmptyStateFormat()
             format.buttonColor = "44CCD6".hexColor
             format.position = EmptyStatePosition(view: .top, text: .right, image: .top)
-            format.animation = EmptyStateAnimation.fade(0.3, 0.3)
+            format.animation = DefaultEmptyStateAnimation.fade(0.3, 0.3)
             format.verticalMargin = 20
             format.horizontalMargin = 40
             format.imageSize = CGSize(width: 320, height: 200)
@@ -99,7 +99,7 @@ extension TableState {
             var format = EmptyStateFormat()
             format.buttonColor = "44CCD6".hexColor
             format.position = EmptyStatePosition(view: .bottom, text: .left, image: .top)
-            format.animation = EmptyStateAnimation.fade(0.3, 0.3)
+            format.animation = DefaultEmptyStateAnimation.fade(0.3, 0.3)
             format.verticalMargin = 40
             format.horizontalMargin = 40
             format.imageSize = CGSize(width: 320, height: 200)
@@ -125,7 +125,7 @@ extension TableState {
             var format = EmptyStateFormat()
             format.buttonColor = "44CCD6".hexColor
             format.position = EmptyStatePosition(view: .center, text: .center, image: .cover(0,120))
-            format.animation = EmptyStateAnimation.fade(0.3, 0.3)
+            format.animation = DefaultEmptyStateAnimation.fade(0.3, 0.3)
             format.verticalMargin = 0
             format.horizontalMargin = 40
             format.imageSize = CGSize(width: 320, height: 200)
@@ -140,7 +140,7 @@ extension TableState {
             var format = EmptyStateFormat()
             format.buttonColor = "44CCD6".hexColor
             format.position = EmptyStatePosition(view: .bottom, text: .right, image: .cover(0,100))
-            format.animation = EmptyStateAnimation.fade(0.3, 0.3)
+            format.animation = DefaultEmptyStateAnimation.fade(0.3, 0.3)
             format.verticalMargin = 40
             format.horizontalMargin = 40
             format.imageSize = CGSize(width: 320, height: 200)
