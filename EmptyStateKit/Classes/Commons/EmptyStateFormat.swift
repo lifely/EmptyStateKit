@@ -46,7 +46,7 @@ public struct EmptyStateFormat {
     public var coverImage: Bool = false
     
     /// Image animation type
-    public var animation: EmptyStateAnimation? = .scale(0.3, 0.3)
+  public var animation: EmptyStateAnimation? = DefaultEmptyStateAnimation.fade(0.3, 0.3)
     
     /// Alpha container
     public var alpha: CGFloat = 1.0

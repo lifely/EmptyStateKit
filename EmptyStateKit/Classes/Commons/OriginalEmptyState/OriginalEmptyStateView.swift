@@ -15,13 +15,13 @@ public class OriginalEmptyStateView: UIView, EmptyStateViewProtocol {
   @IBOutlet weak var messageView: UIView!
   @IBOutlet weak var containerView: UIView?
 
-  @IBOutlet weak var imageView: UIImageView!
-  @IBOutlet weak var coverImageView: UIImageView?
+  @IBOutlet public weak var imageView: UIImageView!
+  @IBOutlet public weak var coverImageView: UIImageView?
 
-  @IBOutlet weak var titleLabel: UILabel!
-  @IBOutlet weak var descriptionLabel: UILabel!
+  @IBOutlet public weak var titleLabel: UILabel!
+  @IBOutlet public weak var descriptionLabel: UILabel!
 
-  @IBOutlet weak var primaryButton: UIButton!
+  @IBOutlet public weak var actionButton: UIButton!
     
   // MARK: - Constraints Properties
 
@@ -57,10 +57,12 @@ public class OriginalEmptyStateView: UIView, EmptyStateViewProtocol {
   }
 
   public var format = EmptyStateFormat() {
-    didSet { updateUI() }
+    didSet { updateUI() ; fillView() }
   }
 
-  public var animation = EmptyStateAnimation.none
+  public var animation: EmptyStateAnimation = DefaultEmptyStateAnimation.none
+
+  public var delegateActionClosure: DelegateAction?
 
   // MARK: - Private Properties
 
@@ -72,7 +74,12 @@ public class OriginalEmptyStateView: UIView, EmptyStateViewProtocol {
     super.awakeFromNib()
 
     setupView()
-    primaryButton.layer.cornerRadius = 20
+    actionButton.layer.cornerRadius = 20
+  }
+
+  public override func layoutSubviews() {
+    super.layoutSubviews()
+    updateUI()
   }
 
   // MARK: - Initializers
@@ -107,11 +114,12 @@ public class OriginalEmptyStateView: UIView, EmptyStateViewProtocol {
   // MARK: - Actions / Events
 
   func play() {
-      format.animation?.play?(self)
+    animation.animate(self)
   }
 
   @IBAction func didPressPrimaryButton(_ sender: UIButton) {
-    model.actionClosure?(sender)
+    let action = model.actionClosure ?? delegateActionClosure
+    action?(sender)
   }
     
 }
@@ -147,10 +155,10 @@ extension OriginalEmptyStateView {
         }
         
         if let titleButton = model.actionTitle {
-            primaryButton.isHidden = false
-            primaryButton.setAttributedTitle(NSAttributedString(string: titleButton, attributes: format.buttonAttributes), for: .normal)
+          actionButton.isHidden = false
+          actionButton.setAttributedTitle(NSAttributedString(string: titleButton, attributes: format.buttonAttributes), for: .normal)
         } else {
-            primaryButton.isHidden = true
+          actionButton.isHidden = true
         }
 
       if model.image == nil { imageView.isHidden = true }
@@ -182,13 +190,13 @@ extension OriginalEmptyStateView {
         }
         
         // Primary button format
-        primaryButton.backgroundColor = format.buttonColor
-        primaryButton.layer.cornerRadius = format.buttonRadius
-        primaryButton.layer.shadowColor = format.buttonColor.cgColor
-        primaryButton.layer.shadowOffset = CGSize(width: 0.0, height: 0)
-        primaryButton.layer.masksToBounds = false
-        primaryButton.layer.shadowRadius = format.buttonShadowRadius
-        primaryButton.layer.shadowOpacity = 0.5
+      actionButton.backgroundColor = format.buttonColor
+      actionButton.layer.cornerRadius = format.buttonRadius
+      actionButton.layer.shadowColor = format.buttonColor.cgColor
+      actionButton.layer.shadowOffset = CGSize(width: 0.0, height: 0)
+      actionButton.layer.masksToBounds = false
+      actionButton.layer.shadowRadius = format.buttonShadowRadius
+      actionButton.layer.shadowOpacity = 0.5
         
         if let buttonWidth = format.buttonWidth {
             primaryButtonWidthConstraint?.isActive = true
@@ -246,11 +254,11 @@ public extension OriginalEmptyStateView {
     public var coverImage: UIImage?
 
     public var actionTitle: String?
-    public var actionClosure: ((UIButton) -> ())?
+    public var actionClosure: DelegateAction?
 
     public init(error: Error? = nil, title: String? = nil, description: String? = nil,
                 image: UIImage? = nil, coverImage: UIImage? = nil,
-                actionTitle: String? = nil, actionClosure: ((UIButton) -> ())? = nil) {
+                actionTitle: String? = nil, actionClosure: DelegateAction? = nil) {
       self.error = error
       self.title = title
       self.description = description
@@ -279,3 +287,9 @@ extension OriginalEmptyStateView.Model {
   }
 
 }
+
+
+// MARK: - Animation Comformances
+
+extension OriginalEmptyStateView: FadeAnimationView { }
+extension OriginalEmptyStateView: ScaleAnimationView { }

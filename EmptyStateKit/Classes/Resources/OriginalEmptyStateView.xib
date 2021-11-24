@@ -90,6 +90,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="actionButton" destination="0r6-no-wwh" id="KUh-x3-DoH"/>
                 <outlet property="coverImageView" destination="rvq-az-ECd" id="VLX-7u-lRu"/>
                 <outlet property="coverImageViewBottomConstraint" destination="2QO-qW-X5L" id="e6n-tU-34t"/>
                 <outlet property="coverImageViewTopConstraint" destination="9UJ-NV-Ie9" id="3Ae-KC-EVK"/>
@@ -106,7 +107,6 @@
                 <outlet property="messageViewLeftConstraint" destination="4QO-UW-LIq" id="OL0-4T-GDa"/>
                 <outlet property="messageViewRightConstraint" destination="0hJ-44-jPX" id="QVh-3s-JLx"/>
                 <outlet property="messageViewTopConstraint" destination="Tju-cH-mib" id="WkS-oB-aak"/>
-                <outlet property="primaryButton" destination="0r6-no-wwh" id="8PV-dj-g56"/>
                 <outlet property="primaryButtonCenterXConstraint" destination="MUa-Tn-yuc" id="NiV-xV-oZa"/>
                 <outlet property="primaryButtonLeftConstraint" destination="vxC-fj-pk6" id="HsE-Tc-3dj"/>
                 <outlet property="primaryButtonRightConstraint" destination="02j-HF-o2e" id="8Fp-jy-GII"/>

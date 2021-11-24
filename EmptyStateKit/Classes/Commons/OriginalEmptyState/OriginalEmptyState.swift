@@ -12,7 +12,7 @@ public struct OriginalEmptyState: EmptyStateProtocol {
   // MARK: - Properties
 
   public var format: EmptyStateFormat = EmptyStateFormat()
-  public var animation: EmptyStateAnimation = EmptyStateAnimation.none
+  public var animation: EmptyStateAnimation = DefaultEmptyStateAnimation.none
   public var viewClass: OriginalEmptyStateView.Type = OriginalEmptyStateView.self
 
   public var model: OriginalEmptyStateView.Model = {
