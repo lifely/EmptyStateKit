@@ -9,7 +9,7 @@
 import UIKit
 
 // Positions
-extension EmptyStateView {
+extension OriginalEmptyStateView {
     
     func setupViewPosition(_ position: EmptyStateViewPosition) {
         switch position {

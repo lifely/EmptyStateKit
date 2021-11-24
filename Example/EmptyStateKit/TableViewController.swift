@@ -33,6 +33,19 @@ class TableViewController: UITableViewController {
 extension TableViewController {
     
     private func fetchData() {
+      let test = SimpleEmptyState.noBox
+      let view = SimpleEmptyStateView(state: test).configure(MainState.noInternet)
+//
+//      let name = SimpleEmptyStateView.nibName
+//      let nameOr = OriginalEmptyStateView.nibName
+//
+//       let working =  test.viewClass.init(owner: nil).configure(test)
+//
+//      let truc: EmptyStateProtocol = test
+//      let failure =  truc.viewClass.init(owner: nil).configure(test)
+
+//      let bidule = testType.init(owner: nil)
+
         items = [
             Item(title: "No results", description: "Top image / Center position / Center text", state: .noSearch),
             Item(title: "The box is empty", description: "Bottom image / Center position / Center text", state: .noBox),

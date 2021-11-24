@@ -9,7 +9,7 @@
 import UIKit
 import EmptyStateKit
 
-enum TableState: CustomState {
+enum TableState: CustomState, EmptyStateProtocol {
     
     case noNotifications
     case noBox
@@ -86,4 +86,17 @@ enum TableState: CustomState {
         case .inviteFriend: return "View contact"
         }
     }
+
+
+  public var model: SimpleEmptyStateView.Model {
+    return  SimpleEmptyStateView.Model(error: nil, title: "noBox", description: "Test", actionTitle: "Test")
+  }
+
+//  public var format: EmptyStateFormat { return EmptyStateFormat() }
+
+  public var animation: EmptyStateAnimation { return EmptyStateAnimation.none }
+
+  public var viewClass: SimpleEmptyStateView.Type { return SimpleEmptyStateView.self }
+
+
 }

@@ -27,6 +27,47 @@ public protocol EmptyStateDataSource: AnyObject {
 
 // MARK: - Empty State - Definitions
 
+public class EmptyStateContainer {
+
+  public var _state: Any?
+  public var _view: Any?
+
+  public var emptyStateView: UIView? {
+    get { return _view as? UIView }
+    set { _view = newValue }
+  }
+
+  init<State: EmptyStateProtocol>(state: State) {
+    self._state = state
+    self._view = Self.view(for: state)
+  }
+
+// MARK: - builder
+
+  /// Create empty state view
+//  private static func view<State: EmptyStateProtocol, View: EmptyStateViewProtocol>(for state: State) -> View? {
+//    guard let emptyStateView_: View = state.viewClass.init(owner: nil) as? View else { return nil }
+//
+//    emptyStateView_.configure(state)
+//    emptyStateView_.isHidden = true
+////    emptyStateView_.actionButton = { [weak self] (button) in
+////        self?.didPressActionButton(button)
+////    }
+//
+//    return emptyStateView_
+//  }
+
+  /// Create empty state view
+  private static func view<State: EmptyStateProtocol>(for state: State) -> UIView? {
+    let emptyStateView_ = state.view
+
+//    emptyStateView_.isHidden = true
+
+    return emptyStateView_
+  }
+
+}
+
 public class EmptyState {
 
   // MARK: - Properties
@@ -36,22 +77,23 @@ public class EmptyState {
 
     public var format = EmptyStateFormat() {
         didSet {
-            emptyStateView?.format = format
+//            emptyStateView?.format = format
         }
     }
 
   // MARK: - Private Properties
 
+  public var container: EmptyStateContainer?
+
     private var tableView: UITableView?
     private var containerView: UIView?
 
-    private var emptyStateView: EmptyStateView?
     private var separatorStyle: UITableViewCell.SeparatorStyle = .none
-    
+
     /// Show or hide view
     private var hidden = true {
         didSet {
-            emptyStateView?.isHidden = hidden
+//            emptyStateView?.isHidden = hidden
         }
     }
     
@@ -59,7 +101,7 @@ public class EmptyState {
     private var state: CustomState? {
         didSet {
             guard let _ = state, let viewModel = viewModel else { return }
-            emptyStateView?.viewModel = viewModel
+//            emptyStateView?.model = viewModel
 //            emptyStateView?.setNeedsLayout() ; emptyStateView?.layoutIfNeeded()
         }
     }
@@ -67,11 +109,12 @@ public class EmptyState {
 
   // MARK: - Computed Properties
 
-  private var viewModel: EmptyStateView.ViewModel? {
+  private var viewModel: OriginalEmptyStateView.Model? {
     guard let state = state else { return nil }
-    guard let dataSource = dataSource else {  return EmptyStateView.ViewModel(state: state) }
-
-    return EmptyStateView.ViewModel(state: state, dataSource: dataSource, container: self)
+//    guard let dataSource = dataSource else { return OriginalEmptyStateView.Model(state: state) }
+//
+//    return OriginalEmptyStateView.Model(state: state, dataSource: dataSource, container: self)
+    return nil
   }
 
   // MARK: - Initializers
@@ -86,22 +129,10 @@ public class EmptyState {
 
 extension EmptyState {
 
-  /// Create empty state view
-  private func view(for state: CustomState, model: EmptyStateView.ViewModel) -> EmptyStateView? {
-    guard let emptyStateView_: EmptyStateView = state.viewClass.view as? EmptyStateView else { return nil }
 
-    emptyStateView_.format = format
-    emptyStateView_.viewModel = model
-    emptyStateView_.isHidden = true
-    emptyStateView_.actionButton = { [weak self] (button) in
-        self?.didPressActionButton(button)
-    }
-
-    return emptyStateView_
-  }
 
   /// Add it to your view
-  private func insertView(for emptyStateView: EmptyStateView, in view: UIView) -> EmptyStateView? {
+  private func insertView(for emptyStateView: UIView, in view: UIView) -> UIView? {
     guard let view = containerView else { return nil }
 
     emptyStateView.translatesAutoresizingMaskIntoConstraints = false
@@ -120,7 +151,6 @@ extension EmptyState {
         separatorStyle = tableView.separatorStyle
       case let collectionView as UICollectionView:
         collectionView.backgroundView = emptyStateView
-
       case let stackView as UIStackView:
         stackView.addArrangedSubview(emptyStateView)
       default:
@@ -136,29 +166,31 @@ extension EmptyState {
 
 extension EmptyState {
     
-  public func show(_ state: CustomState? = nil) {
-    self.state = state
+  public func show<State: EmptyStateProtocol>(_ state: State? = nil) {
+//    self.state = state
     guard let containerView = containerView else { return }
-    guard let state = state, let model = self.viewModel else { return }
+    guard let state = state else { return } // viewModel needs to be removed
 
-    emptyStateView?.removeFromSuperview()
-    emptyStateView = nil
+    container?.emptyStateView?.removeFromSuperview()
+    container?.emptyStateView = nil
 
-    guard let stateView = view(for: state, model: model) else { return }
-    emptyStateView = insertView(for: stateView, in: containerView)
+    container = EmptyStateContainer(state: state)
+
+    guard let stateView = container?.emptyStateView else { return }
+    container?.emptyStateView = insertView(for: stateView, in: containerView)
 
     hidden = false
     tableView?.separatorStyle = .none
 
-    emptyStateView?.play()
+//    emptyStateView?.play()
   }
 
   public func hide() {
     hidden = true
     tableView?.separatorStyle = separatorStyle
 
-    emptyStateView?.removeFromSuperview()
-    emptyStateView = nil
+    container?.emptyStateView?.removeFromSuperview()
+    container?.emptyStateView = nil
   }
 
 }

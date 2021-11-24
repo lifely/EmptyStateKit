@@ -23,7 +23,7 @@ public protocol NibLoadable: AnyObject {
 
 // MARK: Default implementation
 
-extension NibLoadable {
+public extension NibLoadable {
     /* By default, use the nib which have the same name as the name of the class,
      and located in the bundle of that class */
     static var nib: UINib {
@@ -32,6 +32,6 @@ extension NibLoadable {
     
     /// Use to create the view with the nib
     static var view: Self {
-        return nib.instantiate(withOwner: Self.self, options: nil)[0] as! Self
+      return nib.instantiate(withOwner: Self.self, options: nil).first as! Self
     }
 }

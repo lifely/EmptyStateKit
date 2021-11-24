@@ -17,7 +17,7 @@ public enum EmptyStateAnimation {
     case scale(FadeTimeInterval, ScaleTimeInterval)
     case none
     
-    var play: ((EmptyStateView) -> ())? {
+    var play: ((OriginalEmptyStateView) -> ())? {
         switch self {
         case .fade(let duration1, let duration2): return { $0.fade(duration1, duration2) }
         case .scale(let duration1, let duration2): return { $0.scale(duration1, duration2) }

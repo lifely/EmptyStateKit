@@ -9,7 +9,7 @@
 import UIKit
 
 // Animations
-extension EmptyStateView {
+extension OriginalEmptyStateView {
     
     // Fade animation
     func fade(_ duration1: TimeInterval, _ duration2: TimeInterval) {

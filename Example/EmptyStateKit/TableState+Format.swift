@@ -19,7 +19,7 @@ extension TableState {
             return EmptyStateFormat()
             
         case .noSearch:
-            
+
             var format = EmptyStateFormat()
             format.buttonColor = "44CCD6".hexColor
             format.position = EmptyStatePosition(view: .center, text: .center, image: .top)

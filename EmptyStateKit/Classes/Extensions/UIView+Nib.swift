@@ -9,26 +9,16 @@
 import UIKit
 
 extension UIView {
-    
-    func fromNib<T : UIView>() -> T? {
-        guard let contentView = Bundle(for: type(of: self)).loadNibNamed(String(describing: type(of: self)), owner: self, options: nil)?.first as? T else {
-            // xib not loaded, or its top view is of the wrong type
-            return nil
-        }
-        self.addSubview(contentView)
-        contentView.translatesAutoresizingMaskIntoConstraints = false
-        contentView.fixConstraintsInView(self)
-        return contentView
-    }
-    
-    func fixConstraintsInView(_ container: UIView!) -> Void {
-        self.translatesAutoresizingMaskIntoConstraints = false
-        self.frame = container.frame
-        container.addSubview(self)
 
-      self.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
-      self.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
-      self.leadingAnchor.constraint(equalTo: container.leadingAnchor).isActive = true
-      self.trailingAnchor.constraint(equalTo: container.trailingAnchor).isActive = true
-    }
+  func fixConstraintsInView(_ container: UIView!) -> Void {
+    self.translatesAutoresizingMaskIntoConstraints = false
+    self.frame = container.frame
+    container.addSubview(self)
+
+    self.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
+    self.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
+    self.leadingAnchor.constraint(equalTo: container.leadingAnchor).isActive = true
+    self.trailingAnchor.constraint(equalTo: container.trailingAnchor).isActive = true
+  }
+
 }

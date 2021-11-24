@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 public protocol CustomState {
 
   // MARK: - Properties
@@ -17,8 +19,7 @@ public protocol CustomState {
     var description: String? { get }
     var titleButton: String? { get }
 
-    var viewClass: NibLoadable.Type { get }
-
+    var viewClass: UIView.Type { get }
 
 }
 
@@ -40,8 +41,8 @@ public extension CustomState {
         get { return nil }
     }
 
-    var viewClass: NibLoadable.Type {
-      return EmptyStateView.self
+    var viewClass: UIView.Type {
+      return OriginalEmptyStateView.self
     }
 
 }
