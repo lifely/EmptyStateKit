@@ -55,11 +55,13 @@ public protocol EmptyStateModel {
   var description: String? { get }
 
   var actionTitle: String? { get }
-  var actionClosure: ((UIButton) -> ())? { get }
+  var actionClosure: DelegateAction? { get }
 
 }
 
 // MARK: - State View Protocol -
+
+public typealias DelegateAction = ((UIButton) -> ())
 
 public protocol EmptyStateViewBase: UIView { }
 
@@ -72,6 +74,8 @@ public protocol EmptyStateViewProtocol: UIView, EmptyStateBase {
   var model: Model { get set }
   var format: EmptyStateFormat { get set }
   var animation: EmptyStateAnimation { get set }
+
+  var delegateActionClosure: DelegateAction? { get set }
 
   // MARK: - configuration
 
