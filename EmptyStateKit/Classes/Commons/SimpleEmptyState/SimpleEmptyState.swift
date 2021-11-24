@@ -15,7 +15,7 @@ import Foundation
 //
 //  public var format: EmptyStateFormat { return EmptyStateFormat() }
 //
-//  public var animation: EmptyStateAnimation = EmptyStateAnimation.none
+//  public var animation: EmptyStateAnimation = DefaultEmptyStateAnimation.none
 //
 //  public var viewClass: SimpleEmptyStateView.Type = SimpleEmptyStateView.self
 //
@@ -39,7 +39,7 @@ public enum SimpleEmptyState: EmptyStateProtocol {
 
   public var format: EmptyStateFormat { return EmptyStateFormat() }
 
-  public var animation: EmptyStateAnimation { return EmptyStateAnimation.none }
+  public var animation: EmptyStateAnimation { return DefaultEmptyStateAnimation.none }
 
   public var viewClass: SimpleEmptyStateView.Type { return SimpleEmptyStateView.self }
 

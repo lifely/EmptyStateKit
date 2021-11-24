@@ -17,11 +17,11 @@ public class SimpleEmptyStateView: UIView, EmptyStateViewProtocol {
   @IBOutlet weak var messageView: UIView!
   @IBOutlet weak var containerView: UIView?
 
-  @IBOutlet weak var imageView: UIImageView!
-  @IBOutlet weak var primaryButton: UIButton!
+  @IBOutlet public weak var imageView: UIImageView!
+  @IBOutlet public weak var actionButton: UIButton!
 
-  @IBOutlet weak var titleLabel: UILabel!
-  @IBOutlet weak var descriptionLabel: UILabel!
+  @IBOutlet public weak var titleLabel: UILabel!
+  @IBOutlet public weak var descriptionLabel: UILabel!
 
   // MARK: - Constraints Properties
 
@@ -37,10 +37,12 @@ public class SimpleEmptyStateView: UIView, EmptyStateViewProtocol {
   }
 
   public var format = EmptyStateFormat() {
-    didSet { updateUI() }
+    didSet { updateUI() ; fillView() }
   }
 
-  public var animation = EmptyStateAnimation.none
+  public var animation: EmptyStateAnimation = DefaultEmptyStateAnimation.none
+
+  public var delegateActionClosure: DelegateAction?
 
   // MARK: - Private Properties
 
@@ -63,18 +65,10 @@ public class SimpleEmptyStateView: UIView, EmptyStateViewProtocol {
     super.awakeFromNib()
 
     setupView()
-    primaryButton.layer.cornerRadius = 20
+    actionButton?.layer.cornerRadius = 20
   }
 
   // MARK: - Configuration -
-
-//  @discardableResult
-//  public func configure(_ state: SimpleEmptyState) -> Self {
-//    self.model = state.model
-//    self.format = state.format
-//    self.animation = state.animation
-//    return self
-//  }
 
   @discardableResult
   public func configure<State: EmptyStateProtocol>(_ state: State) -> Self {
@@ -91,7 +85,8 @@ public class SimpleEmptyStateView: UIView, EmptyStateViewProtocol {
   }
 
   @IBAction private func didPressPrimaryButton(_ sender: UIButton) {
-    model.actionClosure?(sender)
+    let action = model.actionClosure ?? delegateActionClosure
+    action?(sender)
   }
 
 }
@@ -104,33 +99,33 @@ extension SimpleEmptyStateView {
 
   private func fillView() {
     if case .cover(_, _) = format.position.image {
-      imageView.image = nil
+      imageView?.image = nil
     } else {
-      imageView.image = model.image
+      imageView?.image = model.image
     }
 
     if let title = model.title {
-      titleLabel.isHidden = false
-      titleLabel.attributedText = NSAttributedString(string: title, attributes: format.titleAttributes)
+      titleLabel?.isHidden = false
+      titleLabel?.attributedText = NSAttributedString(string: title, attributes: format.titleAttributes)
     } else {
-      titleLabel.isHidden = true
+      titleLabel?.isHidden = true
     }
 
     if let description = model.description {
-      descriptionLabel.isHidden = false
-      descriptionLabel.attributedText = NSAttributedString(string: description, attributes: format.descriptionAttributes)
+      descriptionLabel?.isHidden = false
+      descriptionLabel?.attributedText = NSAttributedString(string: description, attributes: format.descriptionAttributes)
     } else {
-      descriptionLabel.isHidden = true
+      descriptionLabel?.isHidden = true
     }
 
     if let titleButton = model.actionTitle {
-      primaryButton.isHidden = false
-      primaryButton.setAttributedTitle(NSAttributedString(string: titleButton, attributes: format.buttonAttributes), for: .normal)
+      actionButton?.isHidden = false
+      actionButton?.setAttributedTitle(NSAttributedString(string: titleButton, attributes: format.buttonAttributes), for: .normal)
     } else {
-      primaryButton.isHidden = true
+      actionButton?.isHidden = true
     }
 
-    if model.image == nil { imageView.isHidden = true }
+    if model.image == nil { imageView?.isHidden = true }
   }
 
   private func updateUI() {
@@ -146,18 +141,17 @@ extension SimpleEmptyStateView {
       containerView?.layer.cornerRadius = cornerRadius
     }
 
-    imageView.isHidden = false
-    imageView.tintColor = format.imageTintColor ?? .systemBlue
+    imageView?.isHidden = false
+    imageView?.tintColor = format.imageTintColor ?? .systemBlue
 
     // Primary button format
-    primaryButton.backgroundColor = format.buttonColor
-    primaryButton.layer.cornerRadius = format.buttonRadius
-    primaryButton.layer.shadowColor = format.buttonColor.cgColor
-    primaryButton.layer.shadowOffset = CGSize(width: 0.0, height: 0)
-    primaryButton.layer.masksToBounds = false
-    primaryButton.layer.shadowRadius = format.buttonShadowRadius
-    primaryButton.layer.shadowOpacity = 0.5
-
+    actionButton?.backgroundColor = format.buttonColor
+    actionButton?.layer.cornerRadius = format.buttonRadius
+    actionButton?.layer.shadowColor = format.buttonColor.cgColor
+    actionButton?.layer.shadowOffset = CGSize(width: 0.0, height: 0)
+    actionButton?.layer.masksToBounds = false
+    actionButton?.layer.shadowRadius = format.buttonShadowRadius
+    actionButton?.layer.shadowOpacity = 0.5
 
     // Message format
     messageView.alpha = format.alpha
@@ -196,10 +190,10 @@ public extension SimpleEmptyStateView {
     public var image: UIImage?
 
     public var actionTitle: String?
-    public var actionClosure: ((UIButton) -> ())?
+    public var actionClosure: DelegateAction?
 
     public init(error: Error? = nil, title: String? = nil, description: String? = nil, image: UIImage? = nil,
-                actionTitle: String? = nil, actionClosure: ((UIButton) -> ())? = nil) {
+                actionTitle: String? = nil, actionClosure: DelegateAction? = nil) {
       self.error = error
       self.title = title
       self.description = description
@@ -211,3 +205,8 @@ public extension SimpleEmptyStateView {
   }
 
 }
+
+// MARK: - Animation Comformances
+
+extension SimpleEmptyStateView: FadeAnimationView { }
+extension SimpleEmptyStateView: ScaleAnimationView { }

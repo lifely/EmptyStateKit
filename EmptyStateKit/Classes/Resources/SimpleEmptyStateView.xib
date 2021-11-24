@@ -77,6 +77,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="actionButton" destination="f9s-RE-7Wa" id="PVo-lV-ntL"/>
                 <outlet property="containerBottomConstraint" destination="2cP-Pg-sV5" id="kKf-5l-75r"/>
                 <outlet property="containerLeadingConstraint" destination="AUb-0k-Iqr" id="uC4-Zg-95Q"/>
                 <outlet property="containerTopConstraint" destination="OB2-Nr-6Hs" id="Gl2-b8-FeZ"/>
@@ -85,7 +86,6 @@
                 <outlet property="descriptionLabel" destination="pQC-YX-dqJ" id="lmQ-1a-TdJ"/>
                 <outlet property="imageView" destination="oZ9-y9-FH3" id="PlM-xF-VTK"/>
                 <outlet property="messageView" destination="Pj9-Id-jy6" id="RAi-DN-y56"/>
-                <outlet property="primaryButton" destination="f9s-RE-7Wa" id="axw-qd-AnC"/>
                 <outlet property="titleLabel" destination="DUY-05-dzR" id="pAU-kA-5Yu"/>
             </connections>
             <point key="canvasLocation" x="-407.97101449275368" y="-244.41964285714283"/>
