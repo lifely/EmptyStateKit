@@ -10,10 +10,12 @@ import UIKit
 
 extension UIView {
 
-  func fixConstraintsInView(_ container: UIView!) -> Void {
+  func fixConstraintsInView(_ container: UIView!, insert: Bool = true) -> Void {
+    guard let container = container else { return }
+
     self.translatesAutoresizingMaskIntoConstraints = false
-    self.frame = container.frame
-    container.addSubview(self)
+    self.frame = CGRect(origin: .zero, size: container.frame.size)
+    if insert == true { container.addSubview(self) }
 
     self.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
     self.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
