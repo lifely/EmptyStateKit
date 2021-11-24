@@ -294,7 +294,7 @@ view.emptyState.format = format
 This type will make first fade animation with text and second fade animation with the image when empty state appears
 
 ```swift
-format.animation = EmptyStateAnimation.fade(0.3, 0.3) 
+format.animation = DefaultEmptyStateAnimation.fade(0.3, 0.3) 
 ```
 >(Text fade animation duration, Image fade animation duration)
 
@@ -303,7 +303,7 @@ format.animation = EmptyStateAnimation.fade(0.3, 0.3)
 This type will make first fade animation with text and second scale animation with the image when empty state appears
 
 ```swift
-format.animation = EmptyStateAnimation.scale(0.3, 0.3) 
+format.animation = DefaultEmptyStateAnimation.scale(0.3, 0.3) 
 ```
 >(Text fade animation duration, Image scale animation duration)
 

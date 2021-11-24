@@ -7,36 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		054671373F04044A8A09AD8CEF85DEF4 /* EmptyStateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE76F52091691D366D5BF026AEE7CB /* EmptyStateFormat.swift */; };
-		0BFF477961385ED1532B842B8A149336 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DD88D782743FAF062824495B0062B /* UIView+Nib.swift */; };
-		264C89D54AF652394C1D348F59A0C071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		37FB696F276024515DBEE33AEB5D48DD /* UIView+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55F456876AEB659C072CF9A3ABA2AC /* UIView+EmptyState.swift */; };
-		3C0CF6AF682612687C87E72581718D36 /* Pods-EmptyStateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */; };
-		45AD6AEC5C122F8D0EE1B7330BBF0923 /* EmptyStateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276ACB5D2C686C2A6A22273A21030286 /* EmptyStateAnimation.swift */; };
-		7CA95E9D9761EEA97225BC78E647EE91 /* CustomState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D166219B29F87E0809E2958D20C3261E /* CustomState.swift */; };
-		8BF028B859F5B84D365E02813C6DE56C /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715C252BFD7A65098E021DA4B1B52C3A /* EmptyState.swift */; };
-		8EE73A84EB58157F7F462B605F50DC61 /* EmptyStateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A896C12678EB11E45015F29DB48249A /* EmptyStateKit-dummy.m */; };
-		91BB5201919A0640C4AC73A82A87A2F5 /* EmptyStateView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2471DD356E43AB15D3C20FCB21AC54C /* EmptyStateView+Animations.swift */; };
-		9C432FD5274D766A0014EA12 /* SimpleEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C432FD4274D766A0014EA12 /* SimpleEmptyStateView.swift */; };
-		9C432FDD274D8CFB0014EA12 /* Loadables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C432FDC274D8CFB0014EA12 /* Loadables.swift */; };
-		9C432FDF274D8E8C0014EA12 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45061214453AB2148E603B511ADAEFF2 /* NibView.swift */; };
-		9CC1D378274D91FB00CEB2E5 /* SimpleEmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC1D377274D91FB00CEB2E5 /* SimpleEmptyStateView.xib */; };
-		9CC1D37B274D9A1900CEB2E5 /* SimpleEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC1D37A274D9A1900CEB2E5 /* SimpleEmptyState.swift */; };
-		9CC1D37E274DA03600CEB2E5 /* OriginalEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC1D37D274DA03600CEB2E5 /* OriginalEmptyState.swift */; };
-		9CC1D380274DA44900CEB2E5 /* EmptyStateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC1D37F274DA44900CEB2E5 /* EmptyStateProtocols.swift */; };
-		A6922F461B919C87907F4F60F61C5DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		BFB6EE432046941A1C107B81B30D92F0 /* EmptyStateView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76052148B8FDB747DF946AD87561294 /* EmptyStateView+Positions.swift */; };
-		C25F5CF9019C4904AD06375CA098E2C8 /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DB3C3A9DC42B0E35B77E87C0AA668 /* AssociationPolicy.swift */; };
-		C383780093B185EB6836096FB4F0DE18 /* EmptyStatePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BC93F369074FDDA40A53196A8D346 /* EmptyStatePosition.swift */; };
-		CFA2587EB8441A6F84C8661C9209A913 /* OriginalEmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89AD4B7EF5848B37865B417080102199 /* OriginalEmptyStateView.xib */; };
-		D95AE64FF982E137E11CC0B5698EBE47 /* EmptyStateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC65DCBE5DB617A9D75C1BB1D961B6C5 /* EmptyStateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D967AA13C92CFF5AC8005225C395843D /* Pods-EmptyStateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD64B28C4E0D849B7E2585823D2A2763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		ED55CB99ADD33B0175A01819E89630E1 /* OriginalEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CB86537B0917BE3EF78E091D02C8B /* OriginalEmptyStateView.swift */; };
+		14CDA2278C2D10350FCA164F7D7F431C /* EmptyStateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91612C72020AC41E311ACC62FE6D49D7 /* EmptyStateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E87C90DAD21751A06AD998949559C1D /* SimpleEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C366DD5E1AEF8B7D4EE407C65BB5F67E /* SimpleEmptyState.swift */; };
+		40D52B44CDD05AD187911DA910D9188F /* SimpleEmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3D8A3A3284E02E104270582714CB3D /* SimpleEmptyStateView.xib */; };
+		42BD211A53E21E52841599AC1AA03BBA /* Pods-EmptyStateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */; };
+		48BBE1D335AAA8CB28A23249BFEA335D /* Pods-EmptyStateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FA37D773209C371E975F0CEA5BDFA54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		50D09E8692FEE77C213A4A1C2EA12E04 /* Loadables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61123EC5903C06287040A5DAC3DA889B /* Loadables.swift */; };
+		59CF1EDE79FDF55616380CCF9B483628 /* EmptyStateView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0971F6B2A7C1C221868BB66DF0F1B5 /* EmptyStateView+Positions.swift */; };
+		5D5CF67B0BDACA963397811AC7907769 /* CustomState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55728D9A86751686D9EA00FE56EAF8EB /* CustomState.swift */; };
+		768736B83F45CFE9175F5747646E57C6 /* EmptyStateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C9BB259FD10C56F0B19C0DC6EAC5E5 /* EmptyStateAnimation.swift */; };
+		8C069E6F117FA7712C12C26C1E7E1A0C /* OriginalEmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6A9273ED67E3A6B46661E82064D408 /* OriginalEmptyStateView.xib */; };
+		8DD5A54A1E0D99709D81E3D8A667B249 /* UIView+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCE6C423470D37C3507A499F94ADC9 /* UIView+EmptyState.swift */; };
+		91398A38BA43BF55F69C84C7E445684A /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24698BBE98B7F70A3F7104A8721905F /* EmptyState.swift */; };
+		940475D17E1D6BD4D71E17E0770C502B /* EmptyStateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA629FD3D5A41ECF8DC983E6DDF77076 /* EmptyStateFormat.swift */; };
+		A718030F01D64F578B601F5EF6C7B9E3 /* EmptyStateView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E8B858F566B6792098B0C3C4030F47 /* EmptyStateView+Animations.swift */; };
+		A750F543B712F635815017A261523014 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9203548EF3C4E18B758EC283FE90332F /* UIView+Nib.swift */; };
+		A937D0610768677A49DF3FA675EED9D7 /* SimpleEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CAD7CB23E39BC34BEDBEDF256D2193 /* SimpleEmptyStateView.swift */; };
+		AD397F5D473065DADFA2B767D9230F6E /* OriginalEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7C1929C853281EE24C9ADF576FAB4C /* OriginalEmptyState.swift */; };
+		B0F461DD31D9D56D26EA2533CE4EF77E /* EmptyStateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C115C2379F0C4C3D24D90570B5C360 /* EmptyStateProtocols.swift */; };
+		B74481A42DF1AAC3FE6C447EC315FAEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		C728C334329F18D8D1D6009A45606A99 /* OriginalEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F180781DDFEAA3DF18E624A530DEE8 /* OriginalEmptyStateView.swift */; };
+		E4527AB5129376A68E121B0BFA67269E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		EE2AEF16F7E4419F76A1CAEB57ED9D7E /* EmptyStateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE27FBED0D2586FA9C38C560233615 /* EmptyStateKit-dummy.m */; };
+		F1B6FFF129F56CF108832306F1B9B4DF /* EmptyStatePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9870774E097B26444C5A70EFA5C41837 /* EmptyStatePosition.swift */; };
+		F85A50D0D2EE583BA79570716C74E5D6 /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F687BA255A444AF1515353A6738EEB7 /* AssociationPolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B3DCB04B8E34D51DDE380A60F3268644 /* PBXContainerItemProxy */ = {
+		70765309242BE24BCD49517710333282 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,67 +45,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003BC93F369074FDDA40A53196A8D346 /* EmptyStatePosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStatePosition.swift; sourceTree = "<group>"; };
-		07CE76F52091691D366D5BF026AEE7CB /* EmptyStateFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateFormat.swift; path = EmptyStateKit/Classes/EmptyStateFormat.swift; sourceTree = "<group>"; };
-		0A7DB3C3A9DC42B0E35B77E87C0AA668 /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociationPolicy.swift; sourceTree = "<group>"; };
-		2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmptyStateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		276ACB5D2C686C2A6A22273A21030286 /* EmptyStateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateAnimation.swift; sourceTree = "<group>"; };
+		09BEAAAB53F9DDEF44D1016F2160B59C /* EmptyStateKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.release.xcconfig; sourceTree = "<group>"; };
+		16C9BB259FD10C56F0B19C0DC6EAC5E5 /* EmptyStateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateAnimation.swift; sourceTree = "<group>"; };
+		1A3D8A3A3284E02E104270582714CB3D /* SimpleEmptyStateView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SimpleEmptyStateView.xib; path = EmptyStateKit/Classes/Resources/SimpleEmptyStateView.xib; sourceTree = "<group>"; };
+		2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmptyStateKit; path = EmptyStateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ABE27FBED0D2586FA9C38C560233615 /* EmptyStateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmptyStateKit-dummy.m"; sourceTree = "<group>"; };
 		2E0CD00FD69293AC7BA0E790C5D189CE /* Pods-EmptyStateKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyStateKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		325DD88D782743FAF062824495B0062B /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
-		3C12B5F4B82C05579E781508ACB8316A /* EmptyStateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EmptyStateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		45061214453AB2148E603B511ADAEFF2 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = EmptyStateKit/Classes/NibView.swift; sourceTree = "<group>"; };
-		52139732A6D4EA167AF0F54DE6E35300 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
-		5231C27F8B1D1CA6240E1D016207C8E7 /* Pods_EmptyStateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmptyStateKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DDEC001356BA67108D648CBB810D32A /* EmptyStateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmptyStateKit-Info.plist"; sourceTree = "<group>"; };
-		5F7CB86537B0917BE3EF78E091D02C8B /* OriginalEmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OriginalEmptyStateView.swift; sourceTree = "<group>"; };
-		6B47A1A5E9066B3BCC51E586C8CA25DD /* EmptyStateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-prefix.pch"; sourceTree = "<group>"; };
-		715C252BFD7A65098E021DA4B1B52C3A /* EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyState.swift; path = EmptyStateKit/Classes/EmptyState.swift; sourceTree = "<group>"; };
+		4B21F7B9DABC21AD3EC8ADEBF0524C98 /* EmptyStateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmptyStateKit-Info.plist"; sourceTree = "<group>"; };
+		50CAD7CB23E39BC34BEDBEDF256D2193 /* SimpleEmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleEmptyStateView.swift; sourceTree = "<group>"; };
+		50F180781DDFEAA3DF18E624A530DEE8 /* OriginalEmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OriginalEmptyStateView.swift; sourceTree = "<group>"; };
+		5231C27F8B1D1CA6240E1D016207C8E7 /* Pods-EmptyStateKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EmptyStateKit_Example"; path = Pods_EmptyStateKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55728D9A86751686D9EA00FE56EAF8EB /* CustomState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
+		5F687BA255A444AF1515353A6738EEB7 /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociationPolicy.swift; sourceTree = "<group>"; };
+		61123EC5903C06287040A5DAC3DA889B /* Loadables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Loadables.swift; sourceTree = "<group>"; };
+		6BD65C18BAC9AFD100DB15E7032AED27 /* EmptyStateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-prefix.pch"; sourceTree = "<group>"; };
 		72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmptyStateKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		88FDA1756DE555CA79E6FEF1ECCCD27C /* EmptyStateKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.debug.xcconfig; sourceTree = "<group>"; };
-		89AD4B7EF5848B37865B417080102199 /* OriginalEmptyStateView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OriginalEmptyStateView.xib; sourceTree = "<group>"; };
-		9A896C12678EB11E45015F29DB48249A /* EmptyStateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmptyStateKit-dummy.m"; sourceTree = "<group>"; };
-		9C432FD4274D766A0014EA12 /* SimpleEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEmptyStateView.swift; sourceTree = "<group>"; };
-		9C432FDC274D8CFB0014EA12 /* Loadables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loadables.swift; sourceTree = "<group>"; };
-		9CC1D377274D91FB00CEB2E5 /* SimpleEmptyStateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleEmptyStateView.xib; sourceTree = "<group>"; };
-		9CC1D37A274D9A1900CEB2E5 /* SimpleEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEmptyState.swift; sourceTree = "<group>"; };
-		9CC1D37D274DA03600CEB2E5 /* OriginalEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalEmptyState.swift; sourceTree = "<group>"; };
-		9CC1D37F274DA44900CEB2E5 /* EmptyStateProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateProtocols.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C7C1929C853281EE24C9ADF576FAB4C /* OriginalEmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OriginalEmptyState.swift; sourceTree = "<group>"; };
+		91612C72020AC41E311ACC62FE6D49D7 /* EmptyStateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-umbrella.h"; sourceTree = "<group>"; };
+		9203548EF3C4E18B758EC283FE90332F /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		9870774E097B26444C5A70EFA5C41837 /* EmptyStatePosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStatePosition.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A177E9E308E4025B1AFA3E804A8CB868 /* Pods-EmptyStateKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyStateKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		ABB604F0C77683D114667C9D7ED615F2 /* EmptyStateKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.release.xcconfig; sourceTree = "<group>"; };
-		B2471DD356E43AB15D3C20FCB21AC54C /* EmptyStateView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Animations.swift"; sourceTree = "<group>"; };
+		A4C115C2379F0C4C3D24D90570B5C360 /* EmptyStateProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateProtocols.swift; sourceTree = "<group>"; };
+		AA6A9273ED67E3A6B46661E82064D408 /* OriginalEmptyStateView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = OriginalEmptyStateView.xib; path = EmptyStateKit/Classes/Resources/OriginalEmptyStateView.xib; sourceTree = "<group>"; };
 		B6790F881059DDFDDCF9B86F4207658D /* Pods-EmptyStateKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyStateKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B76052148B8FDB747DF946AD87561294 /* EmptyStateView+Positions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Positions.swift"; sourceTree = "<group>"; };
-		BE55F456876AEB659C072CF9A3ABA2AC /* UIView+EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+EmptyState.swift"; sourceTree = "<group>"; };
+		BA0971F6B2A7C1C221868BB66DF0F1B5 /* EmptyStateView+Positions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Positions.swift"; sourceTree = "<group>"; };
 		BE654F42BDC94350CAF282B94AF4137E /* Pods-EmptyStateKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyStateKit_Example-Info.plist"; sourceTree = "<group>"; };
-		C31104946B382A188CBA2C587992F946 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C366DD5E1AEF8B7D4EE407C65BB5F67E /* SimpleEmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleEmptyState.swift; sourceTree = "<group>"; };
+		CA629FD3D5A41ECF8DC983E6DDF77076 /* EmptyStateFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateFormat.swift; sourceTree = "<group>"; };
+		CEFCE6C423470D37C3507A499F94ADC9 /* UIView+EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+EmptyState.swift"; sourceTree = "<group>"; };
 		D157E52A74F110506832292FE8832467 /* Pods-EmptyStateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyStateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D166219B29F87E0809E2958D20C3261E /* CustomState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D24698BBE98B7F70A3F7104A8721905F /* EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyState.swift; path = EmptyStateKit/Classes/EmptyState.swift; sourceTree = "<group>"; };
 		D6C72A66A05A9CE43E663BD9F19FF2E5 /* Pods-EmptyStateKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmptyStateKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6E6F6F6C32732712B1D870F571F3849 /* EmptyStateKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.debug.xcconfig; sourceTree = "<group>"; };
+		D9623D9CAA3702E92844A1EA966B9B4A /* EmptyStateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmptyStateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DB4F5FF9B3ADBD0DE8D732C9F0F4815E /* Pods-EmptyStateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmptyStateKit_Example.modulemap"; sourceTree = "<group>"; };
+		DBCBE23DBD17C3F2556AC711E0185DE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmptyStateKit_Example-dummy.m"; sourceTree = "<group>"; };
-		DFA4647E27D998DD413A1441944F416E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E30CE09E0E64D687FD53E94FE07EE22C /* EmptyStateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmptyStateKit.modulemap; sourceTree = "<group>"; };
+		E1E8B858F566B6792098B0C3C4030F47 /* EmptyStateView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Animations.swift"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FC65DCBE5DB617A9D75C1BB1D961B6C5 /* EmptyStateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-umbrella.h"; sourceTree = "<group>"; };
+		ECD53C55B9F520618B22E32E30BF08CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FF54997B2DC2CD38040F72B42E8E0EEF /* EmptyStateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmptyStateKit.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E54239CC5EBB3F9129D2784086E07CA /* Frameworks */ = {
+		2B57EF97F4554E18B5325E132F538AAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264C89D54AF652394C1D348F59A0C071 /* Foundation.framework in Frameworks */,
-				DD64B28C4E0D849B7E2585823D2A2763 /* UIKit.framework in Frameworks */,
+				E4527AB5129376A68E121B0BFA67269E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1D2A4162C148984CE7DF55387497EB7 /* Frameworks */ = {
+		CBBD3C5F374FEA38B9A9A774FFA72749 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6922F461B919C87907F4F60F61C5DF3 /* Foundation.framework in Frameworks */,
+				4FA37D773209C371E975F0CEA5BDFA54 /* Foundation.framework in Frameworks */,
+				B74481A42DF1AAC3FE6C447EC315FAEB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,50 +126,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		27C20B157969A5C7BDB8BC240EE37B83 /* Positions */ = {
+		45D2377F16FCC019855C6C2C68908547 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				003BC93F369074FDDA40A53196A8D346 /* EmptyStatePosition.swift */,
-				B76052148B8FDB747DF946AD87561294 /* EmptyStateView+Positions.swift */,
-			);
-			path = Positions;
-			sourceTree = "<group>";
-		};
-		350A0287931CA346DE684430738E6A4A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit.framework */,
-				5231C27F8B1D1CA6240E1D016207C8E7 /* Pods_EmptyStateKit_Example.framework */,
+				2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit */,
+				5231C27F8B1D1CA6240E1D016207C8E7 /* Pods-EmptyStateKit_Example */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		41C2440CA929C968692CFAEA3C1D32E4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3C12B5F4B82C05579E781508ACB8316A /* EmptyStateKit.podspec */,
-				DFA4647E27D998DD413A1441944F416E /* LICENSE */,
-				C31104946B382A188CBA2C587992F946 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4D21E27ABA1FE081991663F28E147717 /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				276ACB5D2C686C2A6A22273A21030286 /* EmptyStateAnimation.swift */,
-				B2471DD356E43AB15D3C20FCB21AC54C /* EmptyStateView+Animations.swift */,
-			);
-			path = Animations;
-			sourceTree = "<group>";
-		};
-		5490BFAA5068E5471A3BBCF7924CE2F7 /* AssociationPolicy */ = {
-			isa = PBXGroup;
-			children = (
-				0A7DB3C3A9DC42B0E35B77E87C0AA668 /* AssociationPolicy.swift */,
-			);
-			name = AssociationPolicy;
-			path = EmptyStateKit/Classes/AssociationPolicy;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -184,34 +144,65 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8A6F7E57A1790205BBA0F87FDB1D908F /* Development Pods */ = {
+		66473182BC8E3104A769F8F77CA055AB /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				AA25ECD3BFDA58F3CE46A6BD3F277AD5 /* EmptyStateKit */,
+				16C9BB259FD10C56F0B19C0DC6EAC5E5 /* EmptyStateAnimation.swift */,
+				E1E8B858F566B6792098B0C3C4030F47 /* EmptyStateView+Animations.swift */,
+			);
+			name = Animations;
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		6DAD7FA7BEE61244E40A616A81B4850A /* OriginalEmptyState */ = {
+			isa = PBXGroup;
+			children = (
+				7C7C1929C853281EE24C9ADF576FAB4C /* OriginalEmptyState.swift */,
+				50F180781DDFEAA3DF18E624A530DEE8 /* OriginalEmptyStateView.swift */,
+				A47F5E411649B79AC2DB8F7C48E344B3 /* Positions */,
+			);
+			name = OriginalEmptyState;
+			path = OriginalEmptyState;
+			sourceTree = "<group>";
+		};
+		743AC048A3E1F0554007A82E04962BC8 /* SimpleEmptyState */ = {
+			isa = PBXGroup;
+			children = (
+				C366DD5E1AEF8B7D4EE407C65BB5F67E /* SimpleEmptyState.swift */,
+				50CAD7CB23E39BC34BEDBEDF256D2193 /* SimpleEmptyStateView.swift */,
+			);
+			name = SimpleEmptyState;
+			path = SimpleEmptyState;
+			sourceTree = "<group>";
+		};
+		8178D14B860C5081381D06D5E2BF27DD /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				CA629FD3D5A41ECF8DC983E6DDF77076 /* EmptyStateFormat.swift */,
+				66473182BC8E3104A769F8F77CA055AB /* Animations */,
+				6DAD7FA7BEE61244E40A616A81B4850A /* OriginalEmptyState */,
+				743AC048A3E1F0554007A82E04962BC8 /* SimpleEmptyState */,
+			);
+			name = Commons;
+			path = EmptyStateKit/Classes/Commons;
+			sourceTree = "<group>";
+		};
+		8C1314C502D055D2C589F768B32DD82F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE9A4739A30B04982F56D78B8FEB5A55 /* EmptyStateKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9CC1D379274D9A0500CEB2E5 /* SimpleEmptyState */ = {
+		A47F5E411649B79AC2DB8F7C48E344B3 /* Positions */ = {
 			isa = PBXGroup;
 			children = (
-				9CC1D37A274D9A1900CEB2E5 /* SimpleEmptyState.swift */,
-				9CC1D377274D91FB00CEB2E5 /* SimpleEmptyStateView.xib */,
-				9C432FD4274D766A0014EA12 /* SimpleEmptyStateView.swift */,
+				9870774E097B26444C5A70EFA5C41837 /* EmptyStatePosition.swift */,
+				BA0971F6B2A7C1C221868BB66DF0F1B5 /* EmptyStateView+Positions.swift */,
 			);
-			path = SimpleEmptyState;
-			sourceTree = "<group>";
-		};
-		9CC1D37C274D9C6900CEB2E5 /* OriginalEmptyState */ = {
-			isa = PBXGroup;
-			children = (
-				27C20B157969A5C7BDB8BC240EE37B83 /* Positions */,
-				4D21E27ABA1FE081991663F28E147717 /* Animations */,
-				9CC1D37D274DA03600CEB2E5 /* OriginalEmptyState.swift */,
-				5F7CB86537B0917BE3EF78E091D02C8B /* OriginalEmptyStateView.swift */,
-				89AD4B7EF5848B37865B417080102199 /* OriginalEmptyStateView.xib */,
-			);
-			path = OriginalEmptyState;
+			name = Positions;
+			path = Positions;
 			sourceTree = "<group>";
 		};
 		AA092D3BEB672A6F378BF7EC6BA0ACD8 /* Pods-EmptyStateKit_Example */ = {
@@ -231,31 +222,36 @@
 			path = "Target Support Files/Pods-EmptyStateKit_Example";
 			sourceTree = "<group>";
 		};
-		AA25ECD3BFDA58F3CE46A6BD3F277AD5 /* EmptyStateKit */ = {
+		B65FA61F5C7EC81E5953832F94D30C44 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CC1D379274D9A0500CEB2E5 /* SimpleEmptyState */,
-				9CC1D37C274D9C6900CEB2E5 /* OriginalEmptyState */,
-				715C252BFD7A65098E021DA4B1B52C3A /* EmptyState.swift */,
-				07CE76F52091691D366D5BF026AEE7CB /* EmptyStateFormat.swift */,
-				45061214453AB2148E603B511ADAEFF2 /* NibView.swift */,
-				5490BFAA5068E5471A3BBCF7924CE2F7 /* AssociationPolicy */,
-				F5443D953D8B75A5A514E5BABAD109F9 /* Extensions */,
-				41C2440CA929C968692CFAEA3C1D32E4 /* Pod */,
-				C021DCDF083E58F77B7F90E468CE431B /* Protocols */,
-				FAE55F7F1123A3C1C826A1C18F29EE3C /* Support Files */,
+				FF54997B2DC2CD38040F72B42E8E0EEF /* EmptyStateKit.modulemap */,
+				2ABE27FBED0D2586FA9C38C560233615 /* EmptyStateKit-dummy.m */,
+				4B21F7B9DABC21AD3EC8ADEBF0524C98 /* EmptyStateKit-Info.plist */,
+				6BD65C18BAC9AFD100DB15E7032AED27 /* EmptyStateKit-prefix.pch */,
+				91612C72020AC41E311ACC62FE6D49D7 /* EmptyStateKit-umbrella.h */,
+				D6E6F6F6C32732712B1D870F571F3849 /* EmptyStateKit.debug.xcconfig */,
+				09BEAAAB53F9DDEF44D1016F2160B59C /* EmptyStateKit.release.xcconfig */,
 			);
-			name = EmptyStateKit;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EmptyStateKit";
 			sourceTree = "<group>";
 		};
-		C021DCDF083E58F77B7F90E468CE431B /* Protocols */ = {
+		BA8ACEC2EE83AA8853AE13A89105F6ED /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9C432FDC274D8CFB0014EA12 /* Loadables.swift */,
-				9CC1D37F274DA44900CEB2E5 /* EmptyStateProtocols.swift */,
-				D166219B29F87E0809E2958D20C3261E /* CustomState.swift */,
-				52139732A6D4EA167AF0F54DE6E35300 /* NibLoadable.swift */,
+				D9623D9CAA3702E92844A1EA966B9B4A /* EmptyStateKit.podspec */,
+				ECD53C55B9F520618B22E32E30BF08CC /* LICENSE */,
+				DBCBE23DBD17C3F2556AC711E0185DE5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C5BDE7CF2268F8063704C701EE1E79F2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				55728D9A86751686D9EA00FE56EAF8EB /* CustomState.swift */,
+				A4C115C2379F0C4C3D24D90570B5C360 /* EmptyStateProtocols.swift */,
 			);
 			name = Protocols;
 			path = EmptyStateKit/Classes/Protocols;
@@ -265,54 +261,66 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8A6F7E57A1790205BBA0F87FDB1D908F /* Development Pods */,
+				8C1314C502D055D2C589F768B32DD82F /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				350A0287931CA346DE684430738E6A4A /* Products */,
+				45D2377F16FCC019855C6C2C68908547 /* Products */,
 				108B886DA110219AFE8929FE66C9F5D0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F5443D953D8B75A5A514E5BABAD109F9 /* Extensions */ = {
+		E19DBD753C7FD0A4CD8A54605F216949 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BE55F456876AEB659C072CF9A3ABA2AC /* UIView+EmptyState.swift */,
-				325DD88D782743FAF062824495B0062B /* UIView+Nib.swift */,
+				61123EC5903C06287040A5DAC3DA889B /* Loadables.swift */,
+				CEFCE6C423470D37C3507A499F94ADC9 /* UIView+EmptyState.swift */,
+				9203548EF3C4E18B758EC283FE90332F /* UIView+Nib.swift */,
+				FCA366F0F86C0C313449F47F834B6090 /* AssociationPolicy */,
 			);
 			name = Extensions;
 			path = EmptyStateKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		FAE55F7F1123A3C1C826A1C18F29EE3C /* Support Files */ = {
+		EE9A4739A30B04982F56D78B8FEB5A55 /* EmptyStateKit */ = {
 			isa = PBXGroup;
 			children = (
-				E30CE09E0E64D687FD53E94FE07EE22C /* EmptyStateKit.modulemap */,
-				9A896C12678EB11E45015F29DB48249A /* EmptyStateKit-dummy.m */,
-				5DDEC001356BA67108D648CBB810D32A /* EmptyStateKit-Info.plist */,
-				6B47A1A5E9066B3BCC51E586C8CA25DD /* EmptyStateKit-prefix.pch */,
-				FC65DCBE5DB617A9D75C1BB1D961B6C5 /* EmptyStateKit-umbrella.h */,
-				88FDA1756DE555CA79E6FEF1ECCCD27C /* EmptyStateKit.debug.xcconfig */,
-				ABB604F0C77683D114667C9D7ED615F2 /* EmptyStateKit.release.xcconfig */,
+				D24698BBE98B7F70A3F7104A8721905F /* EmptyState.swift */,
+				AA6A9273ED67E3A6B46661E82064D408 /* OriginalEmptyStateView.xib */,
+				1A3D8A3A3284E02E104270582714CB3D /* SimpleEmptyStateView.xib */,
+				8178D14B860C5081381D06D5E2BF27DD /* Commons */,
+				E19DBD753C7FD0A4CD8A54605F216949 /* Extensions */,
+				BA8ACEC2EE83AA8853AE13A89105F6ED /* Pod */,
+				C5BDE7CF2268F8063704C701EE1E79F2 /* Protocols */,
+				B65FA61F5C7EC81E5953832F94D30C44 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EmptyStateKit";
+			name = EmptyStateKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FCA366F0F86C0C313449F47F834B6090 /* AssociationPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				5F687BA255A444AF1515353A6738EEB7 /* AssociationPolicy.swift */,
+			);
+			name = AssociationPolicy;
+			path = AssociationPolicy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		214C9746A906DC21E9566070A63C70DA /* Headers */ = {
+		E22178B90FD65C663647EBEEB7705307 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D967AA13C92CFF5AC8005225C395843D /* Pods-EmptyStateKit_Example-umbrella.h in Headers */,
+				14CDA2278C2D10350FCA164F7D7F431C /* EmptyStateKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4D7FBD32F2B85065DC829E690828727 /* Headers */ = {
+		F249DBFE78CBC71920DADE3E28DE2EE7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D95AE64FF982E137E11CC0B5698EBE47 /* EmptyStateKit-umbrella.h in Headers */,
+				48BBE1D335AAA8CB28A23249BFEA335D /* Pods-EmptyStateKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,12 +329,12 @@
 /* Begin PBXNativeTarget section */
 		151849092865DFECC0DA34C639EC1EC3 /* EmptyStateKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0316BE60E7AC35E6CAC97D2FB803458F /* Build configuration list for PBXNativeTarget "EmptyStateKit" */;
+			buildConfigurationList = 6D5A12E304EF35C7C436FFB612A268B2 /* Build configuration list for PBXNativeTarget "EmptyStateKit" */;
 			buildPhases = (
-				D4D7FBD32F2B85065DC829E690828727 /* Headers */,
-				CED819FA25CCA72C84EC7110180E939E /* Sources */,
-				1E54239CC5EBB3F9129D2784086E07CA /* Frameworks */,
-				CB565A546396BF65510304C491F2D6E2 /* Resources */,
+				E22178B90FD65C663647EBEEB7705307 /* Headers */,
+				70592B00909E14B7AF5E877FCB638C88 /* Sources */,
+				CBBD3C5F374FEA38B9A9A774FFA72749 /* Frameworks */,
+				CEB112CAAF74E1F31563B218FB7335B9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -334,26 +342,26 @@
 			);
 			name = EmptyStateKit;
 			productName = EmptyStateKit;
-			productReference = 2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit.framework */;
+			productReference = 2663B3A77D4EEE79D09FCB8057033B4E /* EmptyStateKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		6E52A4D0B879F2535F898C344F97EB4B /* Pods-EmptyStateKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A36905EC0A32D4065FF3ADBC4123572 /* Build configuration list for PBXNativeTarget "Pods-EmptyStateKit_Example" */;
+			buildConfigurationList = 414B9F32152F310867A31069247CA147 /* Build configuration list for PBXNativeTarget "Pods-EmptyStateKit_Example" */;
 			buildPhases = (
-				214C9746A906DC21E9566070A63C70DA /* Headers */,
-				EDAB0FD94D490AD7DABE953D1841539C /* Sources */,
-				F1D2A4162C148984CE7DF55387497EB7 /* Frameworks */,
-				ED63F9CEDC20AF990FF75FD3A86AD3C3 /* Resources */,
+				F249DBFE78CBC71920DADE3E28DE2EE7 /* Headers */,
+				A09995E24BEF163BE3B330BAFAFA69ED /* Sources */,
+				2B57EF97F4554E18B5325E132F538AAD /* Frameworks */,
+				5594DF1EED8D0303233A037B8E5FBA26 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				623DDB7A3AB94422F973F4F2653DE162 /* PBXTargetDependency */,
+				CB4817F873C653A82DB50C7B0A50B6AA /* PBXTargetDependency */,
 			);
 			name = "Pods-EmptyStateKit_Example";
-			productName = "Pods-EmptyStateKit_Example";
-			productReference = 5231C27F8B1D1CA6240E1D016207C8E7 /* Pods_EmptyStateKit_Example.framework */;
+			productName = Pods_EmptyStateKit_Example;
+			productReference = 5231C27F8B1D1CA6240E1D016207C8E7 /* Pods-EmptyStateKit_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -362,19 +370,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1310;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 350A0287931CA346DE684430738E6A4A /* Products */;
+			productRefGroup = 45D2377F16FCC019855C6C2C68908547 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -385,100 +393,69 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CB565A546396BF65510304C491F2D6E2 /* Resources */ = {
+		5594DF1EED8D0303233A037B8E5FBA26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC1D378274D91FB00CEB2E5 /* SimpleEmptyStateView.xib in Resources */,
-				CFA2587EB8441A6F84C8661C9209A913 /* OriginalEmptyStateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED63F9CEDC20AF990FF75FD3A86AD3C3 /* Resources */ = {
+		CEB112CAAF74E1F31563B218FB7335B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C069E6F117FA7712C12C26C1E7E1A0C /* OriginalEmptyStateView.xib in Resources */,
+				40D52B44CDD05AD187911DA910D9188F /* SimpleEmptyStateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CED819FA25CCA72C84EC7110180E939E /* Sources */ = {
+		70592B00909E14B7AF5E877FCB638C88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25F5CF9019C4904AD06375CA098E2C8 /* AssociationPolicy.swift in Sources */,
-				9C432FDD274D8CFB0014EA12 /* Loadables.swift in Sources */,
-				7CA95E9D9761EEA97225BC78E647EE91 /* CustomState.swift in Sources */,
-				8BF028B859F5B84D365E02813C6DE56C /* EmptyState.swift in Sources */,
-				45AD6AEC5C122F8D0EE1B7330BBF0923 /* EmptyStateAnimation.swift in Sources */,
-				054671373F04044A8A09AD8CEF85DEF4 /* EmptyStateFormat.swift in Sources */,
-				8EE73A84EB58157F7F462B605F50DC61 /* EmptyStateKit-dummy.m in Sources */,
-				C383780093B185EB6836096FB4F0DE18 /* EmptyStatePosition.swift in Sources */,
-				9C432FD5274D766A0014EA12 /* SimpleEmptyStateView.swift in Sources */,
-				91BB5201919A0640C4AC73A82A87A2F5 /* EmptyStateView+Animations.swift in Sources */,
-				BFB6EE432046941A1C107B81B30D92F0 /* EmptyStateView+Positions.swift in Sources */,
-				9CC1D37B274D9A1900CEB2E5 /* SimpleEmptyState.swift in Sources */,
-				ED55CB99ADD33B0175A01819E89630E1 /* OriginalEmptyStateView.swift in Sources */,
-				37FB696F276024515DBEE33AEB5D48DD /* UIView+EmptyState.swift in Sources */,
-				0BFF477961385ED1532B842B8A149336 /* UIView+Nib.swift in Sources */,
-				9CC1D380274DA44900CEB2E5 /* EmptyStateProtocols.swift in Sources */,
-				9CC1D37E274DA03600CEB2E5 /* OriginalEmptyState.swift in Sources */,
-				9C432FDF274D8E8C0014EA12 /* NibView.swift in Sources */,
+				F85A50D0D2EE583BA79570716C74E5D6 /* AssociationPolicy.swift in Sources */,
+				5D5CF67B0BDACA963397811AC7907769 /* CustomState.swift in Sources */,
+				91398A38BA43BF55F69C84C7E445684A /* EmptyState.swift in Sources */,
+				768736B83F45CFE9175F5747646E57C6 /* EmptyStateAnimation.swift in Sources */,
+				940475D17E1D6BD4D71E17E0770C502B /* EmptyStateFormat.swift in Sources */,
+				EE2AEF16F7E4419F76A1CAEB57ED9D7E /* EmptyStateKit-dummy.m in Sources */,
+				F1B6FFF129F56CF108832306F1B9B4DF /* EmptyStatePosition.swift in Sources */,
+				B0F461DD31D9D56D26EA2533CE4EF77E /* EmptyStateProtocols.swift in Sources */,
+				A718030F01D64F578B601F5EF6C7B9E3 /* EmptyStateView+Animations.swift in Sources */,
+				59CF1EDE79FDF55616380CCF9B483628 /* EmptyStateView+Positions.swift in Sources */,
+				50D09E8692FEE77C213A4A1C2EA12E04 /* Loadables.swift in Sources */,
+				AD397F5D473065DADFA2B767D9230F6E /* OriginalEmptyState.swift in Sources */,
+				C728C334329F18D8D1D6009A45606A99 /* OriginalEmptyStateView.swift in Sources */,
+				2E87C90DAD21751A06AD998949559C1D /* SimpleEmptyState.swift in Sources */,
+				A937D0610768677A49DF3FA675EED9D7 /* SimpleEmptyStateView.swift in Sources */,
+				8DD5A54A1E0D99709D81E3D8A667B249 /* UIView+EmptyState.swift in Sources */,
+				A750F543B712F635815017A261523014 /* UIView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDAB0FD94D490AD7DABE953D1841539C /* Sources */ = {
+		A09995E24BEF163BE3B330BAFAFA69ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0CF6AF682612687C87E72581718D36 /* Pods-EmptyStateKit_Example-dummy.m in Sources */,
+				42BD211A53E21E52841599AC1AA03BBA /* Pods-EmptyStateKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		623DDB7A3AB94422F973F4F2653DE162 /* PBXTargetDependency */ = {
+		CB4817F873C653A82DB50C7B0A50B6AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EmptyStateKit;
 			target = 151849092865DFECC0DA34C639EC1EC3 /* EmptyStateKit */;
-			targetProxy = B3DCB04B8E34D51DDE380A60F3268644 /* PBXContainerItemProxy */;
+			targetProxy = 70765309242BE24BCD49517710333282 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16476D9EC7FF3CE2B95CD03D353B725B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88FDA1756DE555CA79E6FEF1ECCCD27C /* EmptyStateKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EmptyStateKit/EmptyStateKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit.modulemap";
-				PRODUCT_MODULE_NAME = EmptyStateKit;
-				PRODUCT_NAME = EmptyStateKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -545,39 +522,7 @@
 			};
 			name = Debug;
 		};
-		6C8509E2CB26C2B870BBDA8A3E333570 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6790F881059DDFDDCF9B86F4207658D /* Pods-EmptyStateKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F34440BA974357A14D8670A70C623DB /* Release */ = {
+		2A7208D4E700DA8401201089097DFAA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D157E52A74F110506832292FE8832467 /* Pods-EmptyStateKit_Example.release.xcconfig */;
 			buildSettings = {
@@ -592,7 +537,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example.modulemap";
@@ -610,9 +555,9 @@
 			};
 			name = Release;
 		};
-		B3BC3F2EE66DED95E5480D2538675D57 /* Release */ = {
+		B309BA6148846657C168C4A843C07270 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABB604F0C77683D114667C9D7ED615F2 /* EmptyStateKit.release.xcconfig */;
+			baseConfigurationReference = 09BEAAAB53F9DDEF44D1016F2160B59C /* EmptyStateKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -625,7 +570,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EmptyStateKit/EmptyStateKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit.modulemap";
 				PRODUCT_MODULE_NAME = EmptyStateKit;
@@ -633,13 +578,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		B56021E7E73AB5AD4605DBBABDA3A213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E6F6F6C32732712B1D870F571F3849 /* EmptyStateKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmptyStateKit/EmptyStateKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmptyStateKit/EmptyStateKit.modulemap";
+				PRODUCT_MODULE_NAME = EmptyStateKit;
+				PRODUCT_NAME = EmptyStateKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -691,25 +666,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
+		D4ECBA53AD2D95F3AB926A83D487EB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6790F881059DDFDDCF9B86F4207658D /* Pods-EmptyStateKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0316BE60E7AC35E6CAC97D2FB803458F /* Build configuration list for PBXNativeTarget "EmptyStateKit" */ = {
+		414B9F32152F310867A31069247CA147 /* Build configuration list for PBXNativeTarget "Pods-EmptyStateKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16476D9EC7FF3CE2B95CD03D353B725B /* Debug */,
-				B3BC3F2EE66DED95E5480D2538675D57 /* Release */,
+				D4ECBA53AD2D95F3AB926A83D487EB68 /* Debug */,
+				2A7208D4E700DA8401201089097DFAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -723,11 +731,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A36905EC0A32D4065FF3ADBC4123572 /* Build configuration list for PBXNativeTarget "Pods-EmptyStateKit_Example" */ = {
+		6D5A12E304EF35C7C436FFB612A268B2 /* Build configuration list for PBXNativeTarget "EmptyStateKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C8509E2CB26C2B870BBDA8A3E333570 /* Debug */,
-				8F34440BA974357A14D8670A70C623DB /* Release */,
+				B56021E7E73AB5AD4605DBBABDA3A213 /* Debug */,
+				B309BA6148846657C168C4A843C07270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
