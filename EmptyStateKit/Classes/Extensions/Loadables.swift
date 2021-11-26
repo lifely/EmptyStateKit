@@ -10,13 +10,13 @@ import Foundation
 
 // -
 
-public protocol Identifierable {
+internal protocol Identifierable {
 
   static var identifier: String { get }
 
 }
 
-public extension Identifierable {
+internal extension Identifierable {
 
   static var identifier: String { return String(describing: self) }
 
@@ -24,13 +24,13 @@ public extension Identifierable {
 
 // -
 
-public protocol StoryboardLoadable: AnyObject {
+internal protocol StoryboardLoadable: AnyObject {
 
   static var storyboardName: String { get }
 
 }
 
-public extension StoryboardLoadable where Self: UIViewController {
+internal extension StoryboardLoadable where Self: UIViewController {
 
   // MARK: - Computed Properties
 
@@ -91,19 +91,19 @@ public extension StoryboardLoadable where Self: UIViewController {
 
 // -
 
-public protocol NibLoadable {
+internal protocol NibLoadable {
 
   static var nibName: String { get }
 
 }
 
-public extension NibLoadable where Self: Identifierable {
+internal extension NibLoadable where Self: Identifierable {
 
   static var nibName: String { return identifier }
 
 }
 
-public extension NibLoadable where Self: UIView {
+internal extension NibLoadable where Self: UIView {
 
   /// Load Nib from '.xib' files into an abstract `UIView` type, assign `outlet` to current instance
   /// This means you need to register `Outlets` on the `xib` `File Owner` for loading to work
@@ -156,7 +156,7 @@ public extension NibLoadable where Self: UIView {
 
 }
 
-public extension NibLoadable where Self: UIView {
+internal extension NibLoadable where Self: UIView {
 
   init(owner: AnyObject? = nil) {
     self = Self.loadNibViewHelper(owner: owner ?? Self.self, type: Self.self)
@@ -167,13 +167,13 @@ public extension NibLoadable where Self: UIView {
 
 // -
 
-public protocol Reusable {
+internal protocol Reusable {
 
   static var reuseIdentifier: String { get }
 
 }
 
-public extension Reusable where Self: Identifierable {
+internal extension Reusable where Self: Identifierable {
 
   static var reuseIdentifier: String { return identifier }
 
@@ -181,13 +181,13 @@ public extension Reusable where Self: Identifierable {
 
 // -
 
-public protocol ReusableViewKind {
+internal protocol ReusableViewKind {
 
   static var elementKind: String { get }
 
 }
 
-public extension ReusableViewKind {
+internal extension ReusableViewKind {
 
   static var elementKind: String { return UICollectionView.elementKindSectionHeader }
 
