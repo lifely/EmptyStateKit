@@ -65,7 +65,14 @@ public class SimpleEmptyStateView: UIView, EmptyStateViewProtocol {
     super.awakeFromNib()
 
     setupView()
+  }
+
+  public override func layoutSubviews() {
+    super.layoutSubviews()
+
     actionButton?.layer.cornerRadius = 20
+    titleLabel.setNeedsLayout() ; titleLabel.layoutSubviews()
+    descriptionLabel.setNeedsLayout() ; descriptionLabel.layoutSubviews()
   }
 
   // MARK: - Configuration -
