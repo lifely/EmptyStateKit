@@ -63,27 +63,31 @@ extension MainViewController: EmptyStateDelegate {
 extension MainViewController: EmptyStateDataSource {
     
     func imageForState(_ state: CustomState, inEmptyState emptyState: EmptyState) -> UIImage? {
-        switch state as! MainState {
-        case .noInternet: return UIImage(named: "Internet")
-        }
+      return nil
+//        switch state as! MainState {
+//        case .noInternet: return UIImage(named: "Internet")
+//        }
     }
     
     func titleForState(_ state: CustomState, inEmptyState emptyState: EmptyState) -> String? {
-        switch state as! MainState {
-        case .noInternet:  return "We’re Sorry"
-        }
+      return nil
+//        switch state as! MainState {
+//        case .noInternet:  return "We’re Sorry"
+//        }
     }
     
     func descriptionForState(_ state: CustomState, inEmptyState emptyState: EmptyState) -> String? {
-        switch state as! MainState {
-        case .noInternet: return "Our staff is still working on the issue for better experience"
-        }
+      return nil
+//        switch state as! MainState {
+//        case .noInternet: return "Our staff is still working on the issue for better experience"
+//        }
     }
     
     func titleButtonForState(_ state: CustomState, inEmptyState emptyState: EmptyState) -> String? {
-        switch state as! MainState {
-        case .noInternet: return "Try again?"
-        }
+      return nil
+//        switch state as! MainState {
+//        case .noInternet: return "Try again?"
+//        }
     }
 }
 
