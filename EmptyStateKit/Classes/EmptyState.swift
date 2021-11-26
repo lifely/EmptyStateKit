@@ -105,7 +105,7 @@ public class EmptyState {
 
   // MARK: - Computed Properties
 
-  public var format = EmptyStateFormat()
+  public var format: EmptyStateFormat? = nil
 
   /// Show or hide view
   private var hidden: Bool {
@@ -136,8 +136,15 @@ public class EmptyState {
 
       default: break
     }
+
+    backgroundContainerView?.isHidden = true
   }
 
+  public func layoutEmptyStateView() {
+    guard let container = container, let view = container.emptyStateView else { return }
+
+    view.setNeedsLayout() ; view.layoutSubviews()
+  }
 
   // MARK: - Memory
 
@@ -160,7 +167,7 @@ extension EmptyState {
 
     let size = emptyStateView.systemLayoutSizeFitting(bounds,
                                                       withHorizontalFittingPriority: .required,
-                                                      verticalFittingPriority: .defaultHigh)
+                                                      verticalFittingPriority: .defaultLow)
 
     emptyStateView.frame = CGRect(origin: .zero, size: size)
 
@@ -178,12 +185,16 @@ extension EmptyState {
         self.tableView = tableView
         self.separatorStyle = tableView.separatorStyle
 
-//        backgroundContainerView?.subviews.forEach({ $0.removeFromSuperview() })
+        backgroundContainerView?.subviews.forEach({ $0.removeFromSuperview() })
+        backgroundContainerView?.isHidden = false
         emptyStateView.fixConstraintsInView(backgroundContainerView)
+        tableView.invalidateIntrinsicContentSize()
 
       case is UICollectionView where backgroundContainerView != nil:
         backgroundContainerView?.subviews.forEach({ $0.removeFromSuperview() })
+        backgroundContainerView?.isHidden = false
         emptyStateView.fixConstraintsInView(backgroundContainerView)
+        collectionView?.invalidateIntrinsicContentSize()
 
       // MARK: - Collection View Not Prepared
 
@@ -223,6 +234,8 @@ extension EmptyState {
     guard let state = state else { return } // viewModel needs to be removed
 
     container = EmptyStateContainer(state: state)
+
+    if let format = format { container?.view(for: state)?.format = format }
     container?.actionDelegate({ [weak self] (button) in
       self?.didPressActionButton(button)
     }, for: state)
@@ -241,6 +254,7 @@ extension EmptyState {
     hidden = true
     tableView?.separatorStyle = separatorStyle
 
+    backgroundContainerView?.isHidden = true
     backgroundContainerView?.subviews.forEach({ $0.removeFromSuperview() })
     backgroundContainerView?.removeFromSuperview()
 
@@ -252,6 +266,7 @@ extension EmptyState {
     hidden = true
     tableView?.separatorStyle = separatorStyle
 
+    backgroundContainerView?.isHidden = true
     backgroundContainerView?.subviews.forEach({ $0.removeFromSuperview() })
     backgroundContainerView?.removeFromSuperview()
 
