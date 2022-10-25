@@ -150,7 +150,6 @@ public class EmptyState {
 
   deinit {
     clear()
-    print("Test memory deinit State")
   }
 
 }
